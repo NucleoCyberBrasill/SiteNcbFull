@@ -1,0 +1,12 @@
+.logo {
+    width: 200px;
+    height: 70px;
+}
+
+.menu {
+    background-color: #8c52ff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
