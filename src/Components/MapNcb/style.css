@@ -1,0 +1,18 @@
+.maps {
+    background-color: rgb(0, 1, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.maps p {
+    color: rgb(255, 255, 255);
+}
+.maps h3 {
+    color: rgb(94, 23, 235);
+}
+.maps img {
+    width: 25%;
+}

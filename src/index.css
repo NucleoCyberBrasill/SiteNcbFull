@@ -32,8 +32,8 @@ body {
 
 }
 .dropdown-menu {
-  background-color: violet !important;
+  background-color: rgb(139, 82, 255) !important;
 }
 .dropdown-menu:hover {
-  background-color: violet !important;
+  background-color: rgb(139, 82, 255) !important;
 }
