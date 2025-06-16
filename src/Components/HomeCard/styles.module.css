@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+
+
+.card {
+   
+  flex: 0 0 250px;
+  background: transparent;
+  padding: 1rem;
+  border: 2px solid #8c52ff;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 750px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  clip-path: polygon(2% 7%,
+      /* O que era 2% 93% invertido */
+      18% 7%,
+      /* O que era 18% 93% invertido */
+      22% 2%,
+      /* O que era 22% 98% invertido */
+      78% 2%,
+      /* O que era 78% 98% invertido */
+      82% 7%,
+      /* O que era 82% 93% invertido */
+      98% 7%,
+      /* O que era 98% 93% invertido */
+      98% 98%,
+      /* O que era 98% 2% invertido */
+      82% 98%,
+      /* O que era 82% 2% invertido */
+      78% 93%,
+      /* O que era 78% 7% invertido */
+      22% 93%,
+      /* O que era 22% 7% invertido */
+      18% 98%,
+      /* O que era 18% 2% invertido */
+      2% 98%
+      /* O que era 2% 2% invertido */
+    );
+
+  /* EFEITO DE BRILHO (GLOW) NA BORDA
+             * filter: drop-shadow() é ideal porque o brilho segue a forma definida pelo clip-path.
+             * Você pode adicionar múltiplos drop-shadows para criar camadas de brilho com diferentes intensidades.
+             * Use a mesma cor roxa para o brilho.
+             */
+  filter: drop-shadow(0 0 5px #280372)
+    /* Brilho mais próximo e forte */
+    drop-shadow(0 0 15px #280372)
+    /* Brilho médio */
+    drop-shadow(0 0 30px rgba(39, 4, 109, 0.685));
+  /* Brilho mais espalhado e suave */
+
+  /* Adicione uma transição suave para efeitos de hover, se desejar */
+  transition: all 0.3s ease-in-out;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h1 {
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.card h2 {
+  color: #5e17eb;
+  margin-top: 1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin: 0;
+}
