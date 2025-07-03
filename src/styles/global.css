@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+@import 'aos/dist/aos.css';
+
+body{
+  background: var(--color-bg-self);
+      color: var(--color-text-self);
+    font-family: "Share Tech", sans-serif;
+
+}
+.swiper-pagination-bullet {
+  background: var(--color-secondary-self) !important; /* cor padrão (gray-300) */
+  opacity: 1; /* para sempre visível */
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary-self) !important; /* cor ativa (blue-700) */
+}

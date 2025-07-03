@@ -1,22 +1,23 @@
-//import './App.css'
-import { Menu } from './Components/Menu'
-import { HomeCard } from './Components/HomeCard'
-import {GridCard} from "./Components/GridCard";
-import {MapNcb} from "./Components/MapNcb";
-import { MembersCards } from './Components/MembersCards'
-
-
+import { Container } from "./Components/Container"
+import { InfoCard } from "./Components/InfoCard"
+import { Members } from "./Components/Members"
+import { MembersMap } from "./Components/MembersMap"
+import { Menu } from "./Components/Menu"
+import { Projects } from "./Components/Projects"
 
 function App() {
 
   return (
     <>
-      <Menu />
-      <HomeCard/>
-      <GridCard/>
-      <MapNcb/>
-      <MembersCards/>
-  </>
+      <Menu/>
+      <Container>
+
+        <InfoCard/>
+      </Container>
+      <Members/>
+      <MembersMap/>
+      <Projects/>
+      </>
   )
 }
 

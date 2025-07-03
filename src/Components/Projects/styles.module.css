@@ -1,0 +1,15 @@
+.swiper {
+min-height: 20rem;
+height: 40rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
