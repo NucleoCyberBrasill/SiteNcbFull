@@ -9,8 +9,8 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 type themes = "dark" | "light";
 
@@ -21,24 +21,20 @@ export function Menu() {
     });
   }, []);
   useEffect(() => {
-  const mediaQuery = window.matchMedia("(min-width: 768px)");
-
-  function handleResize(e: MediaQueryListEvent) {
-    if (e.matches) {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    function handleResize(e: MediaQueryListEvent) {
+      if (e.matches) {
+        setIsOpen(false);
+      }
+    }
+    if (mediaQuery.matches) {
       setIsOpen(false);
     }
-  }
-
-  if (mediaQuery.matches) {
-    setIsOpen(false);
-  }
-
-  mediaQuery.addEventListener("change", handleResize);
-
-  return () => {
-    mediaQuery.removeEventListener("change", handleResize);
-  };
-}, []);
+    mediaQuery.addEventListener("change", handleResize);
+    return () => {
+      mediaQuery.removeEventListener("change", handleResize);
+    };
+  }, []);
   const [theme, setTheme] = useState<themes>(() => {
     const storageTheme = (localStorage.getItem("theme") as themes) || "dark";
     return storageTheme;
@@ -77,57 +73,29 @@ export function Menu() {
         </div>
 
         <div className="flex items-center space-x-3">
-  {/* Ícone de tema - mobile apenas */}
-  <a
-    onClick={handleThemeChange}
-    className="cursor-pointer inline-flex md:hidden"
-  >
-    {nextThemeIcon[theme]}
-  </a>
+          {/* Ícone de tema - mobile apenas */}
+          <a
+            onClick={handleThemeChange}
+            className="cursor-pointer inline-flex md:hidden"
+          >
+            {nextThemeIcon[theme]}
+          </a>
 
-  {/* Botão hamburger (mobile only) */}
-  <button
-    className="md:hidden p-2"
-    onClick={() => setIsOpen((prev) => !prev)}
-  >
-    {isOpen ? <XIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
-  </button>
-</div>
+          {/* Botão hamburger (mobile only) */}
+          <button
+            className="md:hidden p-2"
+            onClick={() => setIsOpen((prev) => !prev)}
+          >
+            {isOpen ? (
+              <XIcon className="w-6 h-6" />
+            ) : (
+              <MenuIcon className="w-6 h-6" />
+            )}
+          </button>
+        </div>
         {/* Menu Desktop */}
-       <ul className="hidden md:flex items-center space-x-4">
-  <li>
-    <a href="#" className="flex items-center gap-1 hover:text-blue-300">
-      <HomeIcon className="w-4 h-4" /> Início
-    </a>
-  </li>
-  <li>
-    <a href="#" className="flex items-center gap-1 hover:text-blue-300">
-      <InfoIcon className="w-4 h-4" /> Sobre
-    </a>
-  </li>
-  <li>
-    <a href="#" className="flex items-center gap-1 hover:text-blue-300">
-      <ContactIcon className="w-4 h-4" /> Contato
-    </a>
-  </li>
-  <li>
-    {/* Ícone de tema - desktop apenas */}
-    <a
-      onClick={handleThemeChange}
-      className="cursor-pointer hidden md:inline-flex"
-    >
-      {nextThemeIcon[theme]}
-    </a>
-  </li>
-</ul>
-
-      </div>
-
-      {/* Menu Mobile */}
-      {isOpen && (
-        <div className="flex ml-auto  w-40">
-            <ul data-aos="fade-down" data-aos-delay="200" className="mt-3 flex flex-col space-y-1  md:hiddent overflow-hidden">
-        <li>
+        <ul className="hidden md:flex items-center space-x-4">
+          <li>
             <a href="#" className="flex items-center gap-1 hover:text-blue-300">
               <HomeIcon className="w-4 h-4" /> Início
             </a>
@@ -142,9 +110,52 @@ export function Menu() {
               <ContactIcon className="w-4 h-4" /> Contato
             </a>
           </li>
+          <li>
+            {/* Ícone de tema - desktop apenas */}
+            <a
+              onClick={handleThemeChange}
+              className="cursor-pointer hidden md:inline-flex"
+            >
+              {nextThemeIcon[theme]}
+            </a>
+          </li>
         </ul>
-          </div>
-          
+      </div>
+
+      {/* Menu Mobile */}
+      {isOpen && (
+        <div className="flex ml-auto  w-40">
+          <ul
+            data-aos="fade-down"
+            data-aos-delay="200"
+            className="mt-3 flex flex-col space-y-1  md:hiddent overflow-hidden"
+          >
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-1 hover:text-blue-300"
+              >
+                <HomeIcon className="w-4 h-4" /> Início
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-1 hover:text-blue-300"
+              >
+                <InfoIcon className="w-4 h-4" /> Sobre
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center gap-1 hover:text-blue-300"
+              >
+                <ContactIcon className="w-4 h-4" /> Contato
+              </a>
+            </li>
+          </ul>
+        </div>
       )}
     </nav>
   );
