@@ -17,9 +17,28 @@ type themes = "dark" | "light";
 export function Menu() {
   useEffect(() => {
     AOS.init({
-      once: true,    // se deve animar só uma vez
+      once: true,
     });
   }, []);
+  useEffect(() => {
+  const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+  function handleResize(e: MediaQueryListEvent) {
+    if (e.matches) {
+      setIsOpen(false);
+    }
+  }
+
+  if (mediaQuery.matches) {
+    setIsOpen(false);
+  }
+
+  mediaQuery.addEventListener("change", handleResize);
+
+  return () => {
+    mediaQuery.removeEventListener("change", handleResize);
+  };
+}, []);
   const [theme, setTheme] = useState<themes>(() => {
     const storageTheme = (localStorage.getItem("theme") as themes) || "dark";
     return storageTheme;
