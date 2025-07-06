@@ -27,7 +27,7 @@ export function Members() {
           spaceBetween={20}
           pagination={{ clickable: true }}
           modules={[EffectCards]}
-          className="MemberSwiper max-w-6xl mx-auto mt-5 max-w-1"
+          className="MemberSwiper max-w-6xl mx-auto mt-5"
         >
           {membersData.map((member) => (
             <SwiperSlide
