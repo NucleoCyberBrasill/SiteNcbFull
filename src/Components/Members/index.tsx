@@ -19,8 +19,7 @@ export function Members() {
   }, []);
   return (
     <>
-      <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
-      <h2 className="text-xl text-center">Nosso grupo é composto por alunos de diversos cursos, idades e estados do Brasil.</h2>
+      
         <Swiper
           effect={"cards"}
           grabCursor={true}
@@ -28,7 +27,7 @@ export function Members() {
           spaceBetween={20}
           pagination={{ clickable: true }}
           modules={[EffectCards]}
-          className="MemberSwiper max-w-6xl mx-auto mt-5"
+          className="MemberSwiper max-w-6xl mx-auto mt-5 max-w-1"
         >
           {membersData.map((member) => (
             <SwiperSlide

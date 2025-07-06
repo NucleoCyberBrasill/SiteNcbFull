@@ -14,8 +14,17 @@ function App() {
 
         <InfoCard/>
       </Container>
-      <Members/>
-      <MembersMap/>
+<h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
+      <h2 className="text-xl text-center">Nosso grupo é composto por alunos de diversos cursos, idades e estados do Brasil.</h2>
+      <div className="flex gap-4">
+  <div className="flex-1">
+    <Members />
+  </div>
+  <div className="flex-1">
+    <MembersMap />
+  </div>
+</div>
+
       <Projects/>
       </>
   )

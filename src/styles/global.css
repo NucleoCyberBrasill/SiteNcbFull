@@ -16,3 +16,7 @@ body{
 .swiper-pagination-bullet-active {
   background: var(--color-primary-self) !important; /* cor ativa (blue-700) */
 }
+.swiper-wrapper {
+  max-width: 600px; /* define uma largura menor */
+  margin: 0 auto; /* centraliza horizontalmente */
+}
