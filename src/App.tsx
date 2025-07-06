@@ -16,11 +16,11 @@ function App() {
       </Container>
 <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
       <h2 className="text-xl text-center">Nosso grupo é composto por alunos de diversos cursos, idades e estados do Brasil.</h2>
-      <div className="flex gap-4">
-  <div className="flex-1">
+<div className="flex flex-col md:flex-row gap-4">
+  <div className="w-full md:w-1/2">
     <Members />
   </div>
-  <div className="flex-1">
+  <div className="w-full md:w-1/2">
     <MembersMap />
   </div>
 </div>
