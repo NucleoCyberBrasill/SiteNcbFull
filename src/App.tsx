@@ -1,4 +1,5 @@
 import { Container } from "./Components/Container"
+import { Footer } from "./Components/Footer"
 import { InfoCard } from "./Components/InfoCard"
 import { Members } from "./Components/Members"
 import { MembersMap } from "./Components/MembersMap"
@@ -22,6 +23,7 @@ function App() {
 
 
       <Projects/>
+      <Footer/>
       </>
   )
 }

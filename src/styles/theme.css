@@ -17,7 +17,7 @@
   --color-border-hover-self: #4c3d85;
 
   --color-muted-self: #777;
-
+  --footer-color-self: #1c1c1c;
   --gray-50-self: #f4efff;
   --gray-100-self: #e0d7f2;
   --gray-200-self: #b8aee0;
@@ -31,7 +31,7 @@
 }
 
 :root[data-theme="light"] {
---color-bg-self: #f5f0fa;
+  --color-bg-self: #f5f0fa;
   --color-text-self: #1e0a35;
 
   --color-primary-self: #7c3aed; /* Roxo vivo */
@@ -49,4 +49,5 @@
   --color-border-hover-self: #cdb4f0;
 
   --color-muted-self: #a3a3a3;
+  --footer-color-self: #f2f2f2;
 }
