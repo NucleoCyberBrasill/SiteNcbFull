@@ -8,7 +8,7 @@
 //   "https://raw.githubusercontent.com/giuliano-macedo/geodata-br-states/refs/heads/main/geojson/br_states.json";
 export function MembersMap() {
   return (
-    <div className="w-full max-w-2xl mx-auto"> 
+    <div className="text-center"> 
 <p>mapa removido, incompatibilidade da lib com o react 19</p>
      
       </div>
