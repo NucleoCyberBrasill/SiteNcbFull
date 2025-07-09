@@ -3,9 +3,13 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardTitle,
+} from "@/components/ui/card"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import membersData from "./members.json";
@@ -17,28 +21,20 @@ export function Members() {
   }, []);
 
   return (
-        <div className="max-w-5xl mx-auto px-4">
-
+    <div className="max-w-5xl mx-auto px-4">
       <Carousel className="cursor-pointer">
-        <CarouselContent className="flex gap-4 px-4">
+        <CarouselContent className="flex px-4">
           {membersData.map((member) => (
             <CarouselItem
               key={member.id}
               className="
-                p-4
-                mt-2 mb-2
+                
                 sm:basis-1/2 
                 md:basis-1/3 
-                max-w-xs
-                bg-[var(--color-bg-self)] 
-                hover:bg-[var(--color-bg-hover-self)] 
-                rounded-xl
-                border-3 border-[var(--color-primary-self)]
-                shadow-[0_0_5px_var(--color-primary-self)]
-                hover:shadow-[0_0_10px_var(--color-primary-self)]
               "
               data-aos="fade-up"
             >
+              <Card className="w-full max-w-sm bg-[var()]">
               <img
                 className="
                   mt-2 h-32 w-32 
@@ -50,13 +46,16 @@ export function Members() {
                 alt={`Foto de perfil de ${member.name}`}
               />
 
-              <h3 className="font-bold text-lg text-center">{member.name}</h3>
+              <CardTitle
+                className="font-bold text-lg text-center"
+                dangerouslySetInnerHTML={{ __html: member.name }}
+              ></CardTitle>
 
-              <p className="text-center text-sm mt-1 px-2">
+              <CardDescription className="text-center text-sm mt-1 px-2">
                 {member.description}
-              </p>
-
-              <ul className="mt-3 flex items-center justify-center gap-3">
+              </CardDescription>
+<CardFooter className="mt-2 items-center justify-center">
+              <ul className="flex gap-2">
                 {member.github && (
                   <li>
                     <a
@@ -94,11 +93,14 @@ export function Members() {
                   </li>
                 )}
               </ul>
+              </CardFooter>
+              </Card>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="bg-purple-600 text-white hover:bg-purple-700"/>
-        <CarouselNext className="bg-purple-600 text-white hover:bg-purple-700"/>
+        {/* removi os botoes de ir pra frente e pra traz pq tava bugando em telas pequenas */}
+        {/* <CarouselPrevious className="bg-purple-600 text-white hover:text-whitehover:bg-purple-700" />
+        <CarouselNext className="bg-purple-600 text-white hover:bg-purple-700" /> */}
       </Carousel>
     </div>
   );
