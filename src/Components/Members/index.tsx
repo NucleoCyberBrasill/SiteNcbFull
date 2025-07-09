@@ -50,7 +50,7 @@ export function Members() {
                 alt={`Foto de perfil de ${member.name}`}
               />
 
-              <h3 className="font-bold text-lg text-center">{member.name}</h3>
+              <h3 className="font-bold text-lg text-center"  dangerouslySetInnerHTML={{ __html: member.name }} />
 
               <p className="text-center text-sm mt-1 px-2">
                 {member.description}
