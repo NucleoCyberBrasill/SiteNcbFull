@@ -12,14 +12,17 @@ export function Home(){
 
         <InfoCard/>
       </Container>
-<h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
-      <h2 className="text-xl text-center">Nosso grupo é composto por alunos de diversos cursos, idades e estados do Brasil.</h2>
 
+
+      <Projects/>
+<Container>
+  <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
+      <h2 className="text-xl text-center">Nosso grupo é composto por alunos de diversos cursos, idades e estados do Brasil.</h2>
+</Container>
     <Members />
     <MembersMap />
 
 
-      <Projects/>
     </MainTemplate>
     )
 }
