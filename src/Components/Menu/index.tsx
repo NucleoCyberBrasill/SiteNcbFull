@@ -1,12 +1,10 @@
 import {
-  ContactIcon,
   HomeIcon,
   InfoIcon,
   MoonIcon,
   SunIcon,
   MenuIcon,
   XIcon,
-  PackageIcon,
   FolderIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
