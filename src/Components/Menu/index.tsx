@@ -96,7 +96,7 @@ export function Menu() {
         {/* Menu Desktop */}
         <ul className="hidden md:flex items-center space-x-4">
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-blue-300">
+            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
               <HomeIcon className="w-4 h-4" /> Início
             </a>
           </li>

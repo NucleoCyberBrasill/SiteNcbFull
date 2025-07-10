@@ -1,4 +1,5 @@
 // ProjectCard.tsx
+import { CheckCheckIcon, ClockIcon } from "lucide-react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 type ProjectCardProps = {
@@ -7,6 +8,7 @@ type ProjectCardProps = {
   image: string;
   link: string;
   buttonText: string;
+  status: string
 };
 
 export function ProjectCard({
@@ -15,6 +17,7 @@ export function ProjectCard({
   image,
   link,
   buttonText,
+  status
 }: ProjectCardProps) {
   return (
      <div className="flex flex-col md:flex-row gap-4 items-center md:items-start p-4 w-full ">
@@ -30,11 +33,21 @@ export function ProjectCard({
           max-h-64
         "
       />
-      <div className="text-center md:text-left flex flex-col justify-between w-full">
+      <div className="text-center md:text-left flex flex-col justify-between">
         <div>
           <h2 className="text-2xl font-bold mb-2 text-[rgb(var(--color-primary-self))]">
             {title}
           </h2>
+          {status=="DONE" &&(
+           <span className="text-white inline-flex items-center gap-2 mb-2 bg-green-600 p-1 border border-[var(--color-text-self)] rounded">
+  <CheckCheckIcon /> Concluído
+</span>
+          )}
+          {status=="IN_PROGRESS" &&(
+           <span className="text-white inline-flex items-center gap-2 mb-2 bg-gray-500 p-1 border border-[var(--color-text-self)] rounded">
+  <ClockIcon /> Em progresso
+</span>
+          )}
           {description.split("\n").map((line, index) => (
             <p key={index} className="text-[rgb(var(--color-text-self))]">{line}</p>
           ))}

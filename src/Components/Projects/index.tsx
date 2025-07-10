@@ -22,7 +22,7 @@ export function Projects() {
         }}
         className="max-w-[90%] mx-auto border-[var(--color-secondary-self)] border rounded mb-3 mt-2"
       >
-        {projects.map((project, index) => (
+        {projects.slice().reverse().map((project, index) => (
           <SwiperSlide
             key={index}
             className="flex justify-center items-center p-4"
@@ -33,6 +33,7 @@ export function Projects() {
               image={project.image}
               link={project.link}
               buttonText={project.buttonText}
+              status={project.status}
             />
           </SwiperSlide>
         ))}
