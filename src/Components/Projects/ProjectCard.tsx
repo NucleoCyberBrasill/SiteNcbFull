@@ -33,14 +33,14 @@ export function ProjectCard({
           max-h-64
         "
       />
-      <div className="text-center md:text-left flex flex-col justify-between">
+      <div className="md:text-start text-center flex flex-col justify-between">
         <div>
           <h2 className="text-2xl font-bold mb-2 text-[rgb(var(--color-primary-self))]">
             {title}
           </h2>
           {status=="DONE" &&(
            <span className="text-white inline-flex items-center gap-2 mb-2 bg-green-600 p-1 border border-[var(--color-text-self)] rounded">
-  <CheckCheckIcon /> Concluído
+  <CheckCheckIcon /> Disponível
 </span>
           )}
           {status=="IN_PROGRESS" &&(
