@@ -6,6 +6,8 @@ import {
   SunIcon,
   MenuIcon,
   XIcon,
+  PackageIcon,
+  FolderIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -107,7 +109,7 @@ export function Menu() {
           </li>
           <li>
             <a href="#" className="flex items-center gap-1 hover:text-gray-400">
-              <ContactIcon className="w-4 h-4" /> Contato
+              <FolderIcon className="w-4 h-4" /> Blog
             </a>
           </li>
           <li>
@@ -151,7 +153,7 @@ export function Menu() {
                 href="#"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
-                <ContactIcon className="w-4 h-4" /> Contato
+                <FolderIcon className="w-4 h-4" /> Blog
               </a>
             </li>
           </ul>
