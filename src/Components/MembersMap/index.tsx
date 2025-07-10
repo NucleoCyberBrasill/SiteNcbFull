@@ -8,10 +8,13 @@
 //   "https://raw.githubusercontent.com/giuliano-macedo/geodata-br-states/refs/heads/main/geojson/br_states.json";
 export function MembersMap() {
   return (
-    
-    <div className="text-center items-center"> 
-<img className="h-auto md:h-128 grayscale" src="/imgs/mapaDoBrasil.png" alt="" />     
-      </div>
+    <div className="text-center items-center">
+      <img
+    className="w-auto max-w-100 h-auto object-contain grayscale"
+        src="/imgs/mapaDoBrasil.png"
+        alt=""
+      />
+    </div>
   );
 }
 //codigo do mapa que eu tinha usado
@@ -20,7 +23,7 @@ export function MembersMap() {
 //         projectionConfig={{
 //           center: [-55, -15],
 //           scale: 550,
-          
+
 //         }}
 //               style={{ width: "100%", height: "100%" }}
 
@@ -52,6 +55,6 @@ export function MembersMap() {
 //             x={-12}
 //             y={-12}
 //           />
-         
+
 //         </Marker>
 //       </ComposableMap>

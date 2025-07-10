@@ -2,7 +2,7 @@ import { MainTemplate } from "../../templates/MainTemplate";
 import { Container } from "../../Components/Container";
 import { InfoCard } from "../../Components/InfoCard";
 import { Members } from "../../Components/Members";
-import { MembersMap } from "../../Components/MembersMap";
+//import { MembersMap } from "../../Components/MembersMap";
 import { Projects } from "../../Components/Projects";
 
 export function Home() {
@@ -20,10 +20,14 @@ export function Home() {
           do Brasil.
         </h2>
       </Container>
-<div className="flex flex-col md:flex-row gap-4 items-center">
-  <Members />
-  <MembersMap />
-</div>
+
+    <Members/>
+
+    {/* <MembersMap/> */}
+
+
+
+
 
       
     </MainTemplate>
