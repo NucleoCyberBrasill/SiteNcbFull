@@ -27,8 +27,6 @@ export function Members() {
               className="
                 p-4
                 mt-2 mb-2
-                sm:basis-1/2 
-                md:basis-1/3 
                 max-w-xs
                 bg-[var(--color-bg-self)] 
                 hover:bg-[var(--color-bg-hover-self)] 

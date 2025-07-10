@@ -8,9 +8,9 @@
 //   "https://raw.githubusercontent.com/giuliano-macedo/geodata-br-states/refs/heads/main/geojson/br_states.json";
 export function MembersMap() {
   return (
-    <div className="text-center"> 
-<p>mapa removido, incompatibilidade da lib com o react 19</p>
-     
+    
+    <div className="text-center items-center"> 
+<img className="h-auto md:h-128 grayscale" src="/imgs/mapaDoBrasil.png" alt="" />     
       </div>
   );
 }
