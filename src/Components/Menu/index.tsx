@@ -101,12 +101,12 @@ export function Menu() {
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-blue-300">
+            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
               <InfoIcon className="w-4 h-4" /> Sobre
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-blue-300">
+            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
               <ContactIcon className="w-4 h-4" /> Contato
             </a>
           </li>
@@ -133,7 +133,7 @@ export function Menu() {
             <li>
               <a
                 href="#"
-                className="flex items-center gap-1 hover:text-blue-300"
+                className="flex items-center gap-1 hover:text-gray-400"
               >
                 <HomeIcon className="w-4 h-4" /> Início
               </a>
@@ -141,7 +141,7 @@ export function Menu() {
             <li>
               <a
                 href="#"
-                className="flex items-center gap-1 hover:text-blue-300"
+                className="flex items-center gap-1 hover:text-gray-400"
               >
                 <InfoIcon className="w-4 h-4" /> Sobre
               </a>
@@ -149,7 +149,7 @@ export function Menu() {
             <li>
               <a
                 href="#"
-                className="flex items-center gap-1 hover:text-blue-300"
+                className="flex items-center gap-1 hover:text-gray-400"
               >
                 <ContactIcon className="w-4 h-4" /> Contato
               </a>
