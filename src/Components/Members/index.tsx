@@ -23,6 +23,7 @@ import {
   FaCode,
   FaDatabase,
   FaNetworkWired,
+  FaPalette,
   FaRobot,
 } from "react-icons/fa6";
 type TagKey =
@@ -34,7 +35,8 @@ type TagKey =
   | "ia"
   | "devops"
   | "analytics"
-  | "datascience";
+  | "datascience"
+  | "designer";
 const tags: Record<TagKey, React.ReactNode> = {
   cybersec: <FaShieldAlt title="Segurança da informação" />,
   redes: <FaNetworkWired title="Redes" />,
@@ -45,6 +47,7 @@ const tags: Record<TagKey, React.ReactNode> = {
   devops: <FaCogs title="DevOps" />,
   analytics: <FaChartBar title="Análise de dados" />,
   datascience: <FaChartLine title="Ciência de Dados" />,
+  designer: <FaPalette title="Design"/>
 };
 
 export function Members() {
