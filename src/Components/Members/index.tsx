@@ -65,6 +65,7 @@ export function Members() {
               className="
                 p-4
                 m-4
+                select-none
                 sm:basis-1/2 
                 md:basis-1/3 
                 hover:scale-[1.02] transition-transform duration-200
