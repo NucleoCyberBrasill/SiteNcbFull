@@ -1,4 +1,10 @@
-import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaCogs,
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaShieldAlt,
+} from "react-icons/fa";
 import {
   Carousel,
   CarouselContent,
@@ -10,6 +16,36 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import membersData from "./members.json";
 import { useEffect } from "react";
+import {
+  FaChartBar,
+  FaChartLine,
+  FaCloud,
+  FaCode,
+  FaDatabase,
+  FaNetworkWired,
+  FaRobot,
+} from "react-icons/fa6";
+type TagKey =
+  | "cybersec"
+  | "redes"
+  | "cloud"
+  | "database"
+  | "dev"
+  | "ia"
+  | "devops"
+  | "analytics"
+  | "datascience";
+const tags: Record<TagKey, React.ReactNode> = {
+  cybersec: <FaShieldAlt title="Segurança da informação" />,
+  redes: <FaNetworkWired title="Redes" />,
+  cloud: <FaCloud title="Cloud" />,
+  database: <FaDatabase title="Banco de dados" />,
+  dev: <FaCode title="Desenvolvedor(a)" />,
+  ia: <FaRobot title="Inteligência artificial" />,
+  devops: <FaCogs title="DevOps" />,
+  analytics: <FaChartBar title="Análise de dados" />,
+  datascience: <FaChartLine title="Ciência de Dados" />,
+};
 
 export function Members() {
   useEffect(() => {
@@ -17,7 +53,7 @@ export function Members() {
   }, []);
 
   return (
-<div className="max-w-5xl mx-auto rounded-sm px-4">
+    <div className="max-w-5xl mx-auto rounded-sm px-4">
       <Carousel className="cursor-pointer px-5 ">
         <CarouselContent className="flex p-3">
           {membersData.map((member) => (
@@ -53,6 +89,17 @@ export function Members() {
                 className="font-bold text-lg text-center"
                 dangerouslySetInnerHTML={{ __html: member.name }}
               />
+              <div className="flex flex-wrap gap-2 items-center justify-center p-1">
+                {member.tags?.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="px-2 py-1 rounded bg-[var(--color-secondary-self)] 
+                    hover:bg-[var(--color-secondary-hover-self)] text-xs text-[var( --color-text-self)]"
+                  >
+                    {tags[tag as TagKey]}
+                  </span>
+                ))}
+              </div>
 
               <p className="text-center text-sm mt-1 px-2">
                 {member.description}
