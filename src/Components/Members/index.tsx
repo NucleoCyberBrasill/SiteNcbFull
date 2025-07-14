@@ -17,7 +17,7 @@ export function Members() {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-auto border rounded-sm">
+<div className="max-w-5xl mx-auto rounded-sm px-4">
       <Carousel className="cursor-pointer px-5 ">
         <CarouselContent className="flex gap-4 p-3">
           {membersData.map((member) => (
@@ -39,6 +39,7 @@ export function Members() {
               <img
                 className="
                   mt-2 h-32 w-32 
+                  hover:border-[var(--color-accent-self)]
                   border-[var(--color-border-self)] border-4 
                   object-cover aspect-square 
                   rounded-full mx-auto mb-2

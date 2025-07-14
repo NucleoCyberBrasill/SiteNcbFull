@@ -20,16 +20,9 @@ export function Home() {
           do Brasil.
         </h2>
       </Container>
+      <Members />
 
-    <Members/>
-
-    {/* <MembersMap/> */}
-
-
-
-
-
-      
+      {/* <MembersMap/> */}
     </MainTemplate>
   );
 }
