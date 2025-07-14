@@ -42,7 +42,8 @@
     "image":"/imgs/members/ana.jpg",
    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github":"https://github.com/iambel",
-    "linkedin":"https://www.linkedin.com/in/iambel/"
+    "linkedin":"https://www.linkedin.com/in/iambel/",
+    "tags":["dev","datascience","designer"]
   },
   {
     "id":6,
