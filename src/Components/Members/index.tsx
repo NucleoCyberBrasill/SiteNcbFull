@@ -17,24 +17,21 @@ export function Members() {
   }, []);
 
   return (
-        <div className="max-w-5xl mx-auto px-4">
-
-      <Carousel className="cursor-pointer">
-        <CarouselContent className="flex gap-4 px-4">
+    <div className="max-w-5xl mx-auto border rounded-sm">
+      <Carousel className="cursor-pointer px-5 ">
+        <CarouselContent className="flex gap-4 p-3">
           {membersData.map((member) => (
             <CarouselItem
               key={member.id}
               className="
                 p-4
-                mt-2 mb-2
+                m-4
                 sm:basis-1/2 
                 md:basis-1/3 
+                hover:scale-[1.02] transition-transform duration-200
                 max-w-xs
                 bg-[var(--color-bg-self)] 
-                hover:bg-[var(--color-bg-hover-self)] 
                 rounded-xl
-                border-3 border-[var(--color-primary-self)]
-                shadow-[0_0_5px_var(--color-primary-self)]
                 hover:shadow-[0_0_10px_var(--color-primary-self)]
               "
               data-aos="fade-up"
@@ -50,7 +47,10 @@ export function Members() {
                 alt={`Foto de perfil de ${member.name}`}
               />
 
-              <h3 className="font-bold text-lg text-center"  dangerouslySetInnerHTML={{ __html: member.name }} />
+              <h3
+                className="font-bold text-lg text-center"
+                dangerouslySetInnerHTML={{ __html: member.name }}
+              />
 
               <p className="text-center text-sm mt-1 px-2">
                 {member.description}
