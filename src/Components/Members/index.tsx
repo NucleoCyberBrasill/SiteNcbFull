@@ -19,7 +19,7 @@ export function Members() {
   return (
 <div className="max-w-5xl mx-auto rounded-sm px-4">
       <Carousel className="cursor-pointer px-5 ">
-        <CarouselContent className="flex gap-4 p-3">
+        <CarouselContent className="flex p-3">
           {membersData.map((member) => (
             <CarouselItem
               key={member.id}
@@ -30,17 +30,18 @@ export function Members() {
                 md:basis-1/3 
                 hover:scale-[1.02] transition-transform duration-200
                 max-w-xs
-                bg-[var(--color-bg-self)] 
                 rounded-xl
-                hover:shadow-[0_0_10px_var(--color-primary-self)]
+                border-2
+                border-[var(--color-accent-self)]
+                hover:border-[var(--color-accent-hover-self)]
               "
               data-aos="fade-up"
             >
               <img
                 className="
                   mt-2 h-32 w-32 
-                  hover:border-[var(--color-accent-self)]
-                  border-[var(--color-border-self)] border-4 
+                  hover:border-[var(--color-accent-hover-self)]
+                  border-[var(--color-accent-self)] border-3 
                   object-cover aspect-square 
                   rounded-full mx-auto mb-2
                 "
