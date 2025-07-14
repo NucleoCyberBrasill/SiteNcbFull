@@ -57,7 +57,7 @@ export function Members() {
 
   return (
     <div className="max-w-5xl mx-auto rounded-sm px-4">
-      <Carousel className="cursor-pointer px-5 ">
+      <Carousel className="cursor-grab px-5 ">
         <CarouselContent className="flex p-3">
           {membersData.map((member) => (
             <CarouselItem
