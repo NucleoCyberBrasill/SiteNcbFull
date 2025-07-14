@@ -98,7 +98,7 @@ export function Members() {
                   <span
                     key={index}
                     className="px-2 py-1 rounded bg-[var(--color-secondary-self)] 
-                    hover:bg-[var(--color-secondary-hover-self)] text-xs text-[var( --color-text-self)]"
+                    hover:bg-[var(--color-secondary-hover-self)] text-xs text-[var( --color-text-self)] cursor-pointer"
                   >
                     {tags[tag as TagKey]}
                   </span>
