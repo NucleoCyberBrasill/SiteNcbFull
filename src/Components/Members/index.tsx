@@ -56,6 +56,7 @@ export function Members() {
   }, []);
 
   return (
+    <section className="h-screen flex justify-center">
     <div className="max-w-5xl mx-auto rounded-sm px-4">
       <Carousel className="cursor-grab px-5 ">
         <CarouselContent className="flex p-3">
@@ -154,5 +155,6 @@ export function Members() {
         <CarouselNext className="bg-purple-600 text-white hover:bg-purple-700"/> */}
       </Carousel>
     </div>
+    </section>
   );
 }

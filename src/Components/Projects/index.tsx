@@ -8,8 +8,10 @@ import projects from "./projects.json";
 export function Projects() {
   return (
     <>
-      <h1 className="text-3xl text-center mt-6 text-[rgb(var(--color-primary-self))]">
-        Conheça nossos projetos e atividades!
+    {/* projects section */}
+    <section className="h-screen">
+            <h1 className="text-3xl text-center mt-6 text-[rgb(var(--color-primary-self))]">
+        Conheça nossos projetos e atividades
       </h1>
       <h2 className="text-xl text-center">Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!</h2>
       <Swiper
@@ -20,7 +22,7 @@ export function Projects() {
           0: { slidesPerView: 1 },
           1100: { slidesPerView: 2 },
         }}
-        className="max-w-[90%] mx-auto border-[var(--color-secondary-self)] border rounded mb-3 mt-2"
+        className="max-w-[95%] mx-auto border-[var(--color-secondary-self)] border rounded mb-3 mt-2"
       >
         {projects.slice().reverse().map((project, index) => (
           <SwiperSlide
@@ -38,6 +40,8 @@ export function Projects() {
           </SwiperSlide>
         ))}
       </Swiper>
+    </section>
+
     </>
   );
 }

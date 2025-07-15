@@ -59,17 +59,19 @@ export function Menu() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+
+// header section  
   return (
-    <nav className={`p-3 bg-[var(--color-secondary-self)]`}>
+    <nav className={`pt-5 px-5`}>
       <div className="flex justify-between ">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <img
+          {/* <img
             src="https://i.imgur.com/afh57Nd.png"
             alt="Logo do NCB"
             className="h-6 w-6"
-          />
-          <span className="text-xl font-bold">NCB</span>
+          /> seloco esse fotinho não compensa*/}
+          <span className="text-3xl font-bold">NCB</span>
         </div>
 
         <div className="flex items-center space-x-3">
