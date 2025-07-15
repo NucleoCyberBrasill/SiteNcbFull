@@ -13,4 +13,9 @@ Repositório completo do site oficial do **NCB**, contendo **frontend e backend*
 </p>
 
 ---
-  
+
+## 📌 Seções a Fazer
+
+- [ ] Mapa dos integrantes
+- [ ] Depoimentos
+- [ ] Footer
