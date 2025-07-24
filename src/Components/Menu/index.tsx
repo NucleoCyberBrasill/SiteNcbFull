@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 type themes = "dark" | "light";
 
@@ -103,9 +104,12 @@ export function Menu() {
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
-              <InfoIcon className="w-4 h-4" /> Sobre
-            </a>
+            <Link
+              to="/sobre"
+                className="flex items-center gap-1 hover:text-gray-400"
+              >
+                <InfoIcon className="w-4 h-4" /> Sobre
+              </Link>
           </li>
           <li>
             <a href="#" className="flex items-center gap-1 hover:text-gray-400">
@@ -141,12 +145,12 @@ export function Menu() {
               </a>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+              to="/sobre"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
                 <InfoIcon className="w-4 h-4" /> Sobre
-              </a>
+              </Link>
             </li>
             <li>
               <a
