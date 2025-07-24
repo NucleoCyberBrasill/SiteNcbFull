@@ -60,8 +60,7 @@ export function Menu() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-
-// header section  
+  // header section
   return (
     <nav className={`pt-5 px-5`}>
       <div className="flex justify-between ">
@@ -99,17 +98,20 @@ export function Menu() {
         {/* Menu Desktop */}
         <ul className="hidden md:flex items-center space-x-4">
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
-              <HomeIcon className="w-4 h-4" /> Início
-            </a>
+            <Link
+                to="/"
+                className="flex items-center gap-1 hover:text-gray-400"
+              >
+                <HomeIcon className="w-4 h-4" /> Início
+              </Link>
           </li>
           <li>
             <Link
               to="/sobre"
-                className="flex items-center gap-1 hover:text-gray-400"
-              >
-                <InfoIcon className="w-4 h-4" /> Sobre
-              </Link>
+              className="flex items-center gap-1 hover:text-gray-400"
+            >
+              <InfoIcon className="w-4 h-4" /> Sobre
+            </Link>
           </li>
           <li>
             <a href="#" className="flex items-center gap-1 hover:text-gray-400">
@@ -137,16 +139,16 @@ export function Menu() {
             className="mt-3 flex flex-col space-y-1  md:hiddent overflow-hidden"
           >
             <li>
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
                 <HomeIcon className="w-4 h-4" /> Início
-              </a>
+              </Link>
             </li>
             <li>
               <Link
-              to="/sobre"
+                to="/sobre"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
                 <InfoIcon className="w-4 h-4" /> Sobre
