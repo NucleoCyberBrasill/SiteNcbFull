@@ -4,6 +4,7 @@ import { FaEnvelope } from "react-icons/fa";
 import {InfoIcon} from "lucide-react";
 import {HomeIcon} from "lucide-react";
 import {FolderIcon} from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Footer(){
     return(
@@ -18,9 +19,9 @@ export function Footer(){
             <div>
               <h2 className="font-semibold mb-2">Navegação</h2>
               <ul className="space-y-1">
-                <li><a href="/" className=" hover:underline flex items-center gap-1"><HomeIcon/>Home</a></li>
-                <li><a href="/sobre" className=" hover:underline flex items-center gap-1"><InfoIcon/>Sobre</a></li>
-                <li><a href="/blog" className=" hover:underline flex items-center gap-1"><FolderIcon/>Blog</a></li>
+                <li><Link to="/" className=" hover:underline flex items-center gap-1"><HomeIcon/>Home</Link></li>
+                <li><Link to="/sobre" className=" hover:underline flex items-center gap-1"><InfoIcon/>Sobre</Link></li>
+                <li><Link to="/blog" className=" hover:underline flex items-center gap-1"><FolderIcon/>Blog</Link></li>
               </ul>
             </div>
 
