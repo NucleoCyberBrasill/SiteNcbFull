@@ -3,7 +3,7 @@ export function InfoCard() {
     // hero section
     <section className="h-[95vh] flex justify-center items-center">
       <div className=" mt-3 m-3">
-    <div className="p-3 w-auto border-2 max-w-200 rounded border-[var(--color-primary-self)] shadow-lg">
+    <div className="p-4 w-auto border-3 max-w-200 rounded border-[var(--color-primary-self)] shadow-1g">
       <h1 className="text-3xl text-center">Olá, Bem-vindo (a)!</h1>
       <h2 className="text-2xl text-center text-[var(--color-primary-self)] text-shadow-sm">
         Somos o NCB — Núcleo Cyber Brasil, ficamos muito felizes com o seu interesse =)

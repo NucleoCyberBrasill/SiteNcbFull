@@ -9,11 +9,11 @@ export function Projects() {
   return (
     <>
     {/* projects section */}
-    <section className="h-screen">
-            <h1 className="text-3xl text-center mt-6 text-[rgb(var(--color-primary-self))]">
-        Conheça nossos projetos e atividades
-      </h1>
+    <section className="h-[70vh]">
+      <h1 className="text-3xl text-center ">Conheça nossos projetos e atividades</h1>
       <h2 className="text-xl text-center">Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!</h2>
+
+           
       <Swiper
         pagination={{ clickable: true }}
         modules={[Pagination, Mousewheel]}
@@ -22,7 +22,7 @@ export function Projects() {
           0: { slidesPerView: 1 },
           1100: { slidesPerView: 2 },
         }}
-        className="max-w-[95%] mx-auto border-[var(--color-secondary-self)] border rounded mb-3 mt-2"
+        className="max-w-[95%] mx-auto border-[var(--color-primary-self)] border-3 rounded mt-8"
       >
         {projects.slice().reverse().map((project, index) => (
           <SwiperSlide

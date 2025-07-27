@@ -1,3 +1,4 @@
+// header-menu
 import {
   HomeIcon,
   InfoIcon,
@@ -8,12 +9,13 @@ import {
   FolderIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 type themes = "dark" | "light";
+
+// switch theme logic
 
 export function Menu() {
   useEffect(() => {
@@ -41,11 +43,12 @@ export function Menu() {
     return storageTheme;
   });
 
-  const [isOpen, setIsOpen] = useState(false); // menu mobile
+
+  const [isOpen, setIsOpen] = useState(false); 
 
   const nextThemeIcon = {
-    dark: <SunIcon className="w-5 h-5" />,
-    light: <MoonIcon className="w-5 h-5" />,
+    dark: <SunIcon className="w-8 h-8" />,
+    light: <MoonIcon className="w-8 h-8" />,
   };
 
   function handleThemeChange(
@@ -62,18 +65,13 @@ export function Menu() {
 
   // header section
   return (
-    <nav className={`pt-5 px-5`}>
+    <nav className={`pt-5 px-5 `}>
       <div className="flex justify-between ">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          {/* <img
-            src="https://i.imgur.com/afh57Nd.png"
-            alt="Logo do NCB"
-            className="h-6 w-6"
-          /> seloco esse fotinho não compensa*/}
           <span className="text-3xl font-bold">NCB</span>
         </div>
-
+      
         <div className="flex items-center space-x-3">
           {/* Ícone de tema - mobile apenas */}
           <a
@@ -96,13 +94,13 @@ export function Menu() {
           </button>
         </div>
         {/* Menu Desktop */}
-        <ul className="hidden md:flex items-center space-x-4">
+        <ul className="hidden md:flex items-center space-x-8">
           <li>
             <Link
                 to="/"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
-                <HomeIcon className="w-4 h-4" /> Início
+                <HomeIcon className="w-6 h-6" /> Início
               </Link>
           </li>
           <li>
@@ -110,13 +108,13 @@ export function Menu() {
               to="/sobre"
               className="flex items-center gap-1 hover:text-gray-400"
             >
-              <InfoIcon className="w-4 h-4" /> Sobre
+              <InfoIcon className="w-6 h-6" /> Sobre
             </Link>
           </li>
           <li>
-            <a href="#" className="flex items-center gap-1 hover:text-gray-400">
-              <FolderIcon className="w-4 h-4" /> Blog
-            </a>
+            <Link to="/blog" className="flex items-center gap-1 hover:text-gray-400">
+              <FolderIcon className="w-6 h-6" /> Blog
+            </Link>
           </li>
           <li>
             {/* Ícone de tema - desktop apenas */}
@@ -155,12 +153,12 @@ export function Menu() {
               </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/blog"
                 className="flex items-center gap-1 hover:text-gray-400"
               >
                 <FolderIcon className="w-4 h-4" /> Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

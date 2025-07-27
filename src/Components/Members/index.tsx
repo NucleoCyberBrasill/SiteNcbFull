@@ -56,12 +56,12 @@ export function Members() {
   }, []);
 
   return (
-    <section className="h-screen flex justify-center">
+    <section className="h-[70vh] flex justify-center">
     <div className="max-w-5xl mx-auto rounded-sm px-4">
       <Carousel className="cursor-grab px-5 ">
         <CarouselContent className="flex p-3">
           {membersData.map((member) => (
-            <CarouselItem
+            <CarouselItem 
               key={member.id}
               className="
                 p-4
@@ -69,11 +69,11 @@ export function Members() {
                 select-none
                 sm:basis-1/2 
                 md:basis-1/3 
-                hover:scale-[1.02] transition-transform duration-200
                 max-w-xs
                 rounded-xl
-                border-2
-                border-[var(--color-accent-self)]
+                border-3
+                border-[var(--color-primary-self)]
+                hover:scale-106
                 hover:border-[var(--color-accent-hover-self)]
               "
               data-aos="fade-up"
@@ -81,8 +81,7 @@ export function Members() {
               <img
                 className="
                   mt-2 h-32 w-32 
-                  hover:border-[var(--color-accent-hover-self)]
-                  border-[var(--color-accent-self)] border-3 
+                  border-[var(--color-accent-hover-self)] border-5 
                   object-cover aspect-square 
                   rounded-full mx-auto mb-2
                 "
@@ -112,7 +111,7 @@ export function Members() {
 
               <ul className="mt-3 flex items-center justify-center gap-3">
                 {member.github && (
-                  <li>
+                  <li className="hover:scale-110 transition-transform">
                     <a
                       href={member.github}
                       target="_blank"
@@ -124,7 +123,7 @@ export function Members() {
                   </li>
                 )}
                 {member.linkedin && (
-                  <li>
+                  <li className="hover:scale-110 transition-transform">
                     <a
                       href={member.linkedin}
                       target="_blank"
@@ -136,7 +135,7 @@ export function Members() {
                   </li>
                 )}
                 {member.discord && (
-                  <li>
+                  <li className="hover:scale-110 transition-transform">
                     <a
                       href={member.discord}
                       target="_blank"
