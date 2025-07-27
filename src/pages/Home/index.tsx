@@ -4,12 +4,15 @@ import { InfoCard } from "../../Components/InfoCard";
 import { Members } from "../../Components/Members";
 //import { MembersMap } from "../../Components/MembersMap";
 import { Projects } from "../../Components/Projects";
+import Cta  from "../../Components/Cta/Cta";
+import Reviews from "../../Components/Reviews/Reviews";
 
 export function Home() {
   return (
     <MainTemplate>
       <Container>
         <InfoCard />
+
       </Container>
 
       <Projects />
@@ -21,6 +24,8 @@ export function Home() {
         </h2>
       </Container>
       <Members />
+      <Reviews />
+      <Cta />
 
       {/* <MembersMap/> */}
     </MainTemplate>
