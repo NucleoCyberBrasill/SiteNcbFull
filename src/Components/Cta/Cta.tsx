@@ -1,5 +1,4 @@
 // CTA section, convite/explicação de como participar 
-import React from 'react'
 
 const Cta = () => {
   return (

@@ -1,5 +1,4 @@
 // reviews/testimonials section
-import React from 'react'
 
 const Reviews = () => {
   return (

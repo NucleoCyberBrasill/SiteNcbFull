@@ -1,7 +1,7 @@
 import { MainTemplate } from '../../templates/MainTemplate'
 
-const Blog = () => {
-  return (
+export function Blog(){
+    return (
     <MainTemplate>
       <div className='h-screen justify-center items-center flex'>
         Blog Page is working!
@@ -10,5 +10,3 @@ const Blog = () => {
     
   )
 }
-
-export default Blog
