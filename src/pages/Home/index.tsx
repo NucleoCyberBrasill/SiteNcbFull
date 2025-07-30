@@ -2,17 +2,16 @@ import { MainTemplate } from "../../templates/MainTemplate";
 import { Container } from "../../Components/Container";
 import { InfoCard } from "../../Components/InfoCard";
 import { Members } from "../../Components/Members";
-//import { MembersMap } from "../../Components/MembersMap";
 import { Projects } from "../../Components/Projects";
-import Cta  from "../../Components/Cta/Cta";
+import Cta from "../../Components/Cta/Cta";
 import Reviews from "../../Components/Reviews/Reviews";
+import MembersMap from "../../Components/MembersMap/MembersMap";
 
 export function Home() {
   return (
     <MainTemplate>
       <Container>
         <InfoCard />
-
       </Container>
 
       <Projects />
@@ -24,10 +23,9 @@ export function Home() {
         </h2>
       </Container>
       <Members />
+      <MembersMap />
       <Reviews />
       <Cta />
-
-      {/* <MembersMap/> */}
     </MainTemplate>
   );
 }
