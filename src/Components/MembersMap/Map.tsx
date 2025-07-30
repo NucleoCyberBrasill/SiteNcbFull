@@ -28,7 +28,7 @@ const Map = () => {
 
           <g>
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -38,7 +38,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -48,7 +48,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -59,7 +59,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -70,7 +70,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -80,7 +80,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -90,7 +90,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -100,7 +100,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -110,7 +110,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -120,7 +120,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -131,7 +131,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -142,7 +142,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -153,7 +153,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -163,7 +163,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -173,7 +173,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -185,7 +185,7 @@ const Map = () => {
 
             <polygon
               id="MG"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -211,7 +211,7 @@ const Map = () => {
 
             <polygon
               id="GO"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -235,7 +235,7 @@ const Map = () => {
 
             <polygon
               id="TO"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -256,7 +256,7 @@ const Map = () => {
 
             <polygon
               id="RJ"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -275,7 +275,7 @@ const Map = () => {
 
             <polygon
               id="SP"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -297,7 +297,7 @@ const Map = () => {
 
             <polygon
               id="BA"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -335,7 +335,7 @@ const Map = () => {
 
             <path
               id="MT"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -354,7 +354,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               id="RS"
               stroke="#FFFFFF"
               stroke-linecap="round"
@@ -379,7 +379,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               id="SC"
               stroke="#FFFFFF"
               stroke-linecap="round"
@@ -402,7 +402,7 @@ const Map = () => {
 
             <polygon
               id="PR"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -423,7 +423,7 @@ const Map = () => {
 
             <polygon
               id="MS"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -440,7 +440,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -451,7 +451,7 @@ const Map = () => {
 
             <polygon
               id="PI"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -471,7 +471,7 @@ const Map = () => {
 
             <polygon
               id="MA"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -504,7 +504,7 @@ const Map = () => {
 
             <path
               id="PA"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -545,7 +545,7 @@ const Map = () => {
 
             <polygon
               id="DF"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -558,7 +558,7 @@ const Map = () => {
 
           <g>
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -569,7 +569,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -579,7 +579,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -589,7 +589,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -599,7 +599,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -609,7 +609,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -620,7 +620,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -630,7 +630,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -640,7 +640,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -650,7 +650,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -661,7 +661,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -671,7 +671,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -681,7 +681,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -691,7 +691,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -701,7 +701,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -711,7 +711,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -721,7 +721,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -731,7 +731,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -741,7 +741,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -751,7 +751,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -761,7 +761,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -771,7 +771,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -781,7 +781,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -792,7 +792,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -802,7 +802,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -812,7 +812,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -822,7 +822,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -832,7 +832,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -843,7 +843,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -853,7 +853,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -863,7 +863,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -873,7 +873,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -883,7 +883,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -893,7 +893,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -904,7 +904,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -914,7 +914,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -924,7 +924,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -934,7 +934,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -945,7 +945,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -955,7 +955,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -965,7 +965,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -975,7 +975,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -985,7 +985,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -995,7 +995,7 @@ const Map = () => {
             />
 
             <polygon
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1006,7 +1006,7 @@ const Map = () => {
 
             <polygon
               id="ES"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1020,7 +1020,7 @@ const Map = () => {
 
             <polygon
               id="SE"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1034,7 +1034,7 @@ const Map = () => {
 
             <polygon
               id="AL"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1048,7 +1048,7 @@ const Map = () => {
 
             <polygon
               id="RN"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1063,7 +1063,7 @@ const Map = () => {
 
             <polygon
               id="PB"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1081,7 +1081,7 @@ const Map = () => {
 
             <polygon
               id="PE"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1101,7 +1101,7 @@ const Map = () => {
 
             <polygon
               id="RO"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1117,7 +1117,7 @@ const Map = () => {
 
             <polygon
               id="AP"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1137,7 +1137,7 @@ const Map = () => {
 
             <polygon
               id="AC"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1152,7 +1152,7 @@ const Map = () => {
 
             <polygon
               id="CE"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1170,7 +1170,7 @@ const Map = () => {
 
             <polygon
               id="RR"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1187,7 +1187,7 @@ const Map = () => {
 
             <polygon
               id="AM"
-              class="state"
+              className="state"
               stroke="#FFFFFF"
               stroke-linecap="round"
               stroke-linejoin="round"
