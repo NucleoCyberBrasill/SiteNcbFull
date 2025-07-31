@@ -13,7 +13,7 @@ const Map = () => {
         width="553.845px" // ajusta a largura
         height="567.766px" // ajusta a altura
         viewBox="0 0 353.845 367.766" // ajusta as dimensões proporcionalmente
-        enable-background="new 0 0 353.845 367.766"
+        enableBackground="new 0 0 353.845 367.766"
         xmlSpace="preserve"
       >
         <g>
@@ -30,9 +30,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             262.933,59.372 262.634,58.974 262.284,59.77 262.385,60.018"
             />
@@ -40,9 +40,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             260.837,59.72 260.486,59.57 260.137,60.118 260.387,60.217"
             />
@@ -50,9 +50,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             268.775,70.112 269.623,69.864 269.923,69.565 270.521,69.019 270.223,68.67 270.422,68.024 270.072,67.875 269.523,68.372
             268.075,68.621 267.776,69.267 268.325,70.063"
@@ -61,9 +61,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             266.977,69.715 266.478,70.709 266.878,71.256 266.429,71.853 266.627,72.002 267.525,71.206 267.576,70.709 267.276,70.46
             267.326,69.963"
@@ -72,9 +72,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             273.268,67.129 272.519,67.328 272.469,67.676 273.217,67.477"
             />
@@ -82,9 +82,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             273.168,66.682 273.667,66.582 273.667,66.283 272.868,66.532 272.469,66.98 273.168,66.98"
             />
@@ -92,9 +92,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             287.396,71.455 287.296,71.206 286.897,71.306 286.947,71.555"
             />
@@ -102,9 +102,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             317.301,166.48 317.699,166.778 317.999,166.629 317.949,165.982 317.699,166.331"
             />
@@ -112,9 +112,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             271.786,256.412 269.955,256.744 270.322,257.207 272.984,256.182 272.719,255.781"
             />
@@ -122,9 +122,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             269.523,257.273 268.658,257.439 268.392,258.037 268.126,258.068 268.126,258.5 269.89,258.068 270.488,258.137 270.521,257.805
             270.022,257.738"
@@ -133,9 +133,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             261.137,264.436 260.97,263.738 259.805,263.539 259.705,264.07 258.439,265.693 258.807,266.357 260.072,265.629
             260.403,265.992 261.069,265.662 260.004,264.768 260.67,264.799"
@@ -144,9 +144,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             231.231,288.252 230.582,288.055 230.383,288.602 229.535,289.297 230.333,290.342 230.582,290.143 230.482,289.744
             231.082,289.197"
@@ -155,9 +155,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             232.43,280.396 232.38,280.943 232.829,280.943 232.829,280.148"
             />
@@ -165,9 +165,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             235.924,277.463 236.124,277.512 236.474,276.518 238.271,275.125 236.273,276.418"
             />
@@ -175,9 +175,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             232.13,299.988 231.682,300.436 231.032,300.635 231.432,301.877 230.782,302.822 230.981,303.32 230.633,304.363
             231.731,303.369 231.58,302.922 232.38,301.828 232.031,301.332 233.029,300.686"
@@ -187,9 +187,9 @@ const Map = () => {
               id="MG"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             248.729,178.317 247.68,179.172 248.918,181.266 248.062,182.216 246.159,181.266 244.353,183.167 246.159,184.404
             244.826,185.83 246.159,187.733 245.303,189.541 243.876,190.873 242.067,192.205 241.782,193.916 240.261,194.393
@@ -213,9 +213,9 @@ const Map = () => {
               id="GO"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             237.787,165.188 234.456,165.283 233.886,163.38 229.033,165.093 227.987,160.526 224.942,160.24 222.088,164.902
             215.523,162.143 215.904,157.576 213.525,161.787 211.718,164.997 212.003,166.996 210.291,168.898 210.386,172.037
@@ -237,9 +237,9 @@ const Map = () => {
               id="TO"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             249.87,134.838 247.396,133.221 248.252,132.079 245.873,130.557 245.303,128.083 243.21,127.513 243.21,125.991 245.017,125.991
             244.541,122.564 245.493,121.709 249.107,122.755 249.298,121.233 246.92,120.091 248.347,117.333 246.635,116.476
@@ -258,9 +258,9 @@ const Map = () => {
               id="RJ"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             293.158,239.49 290.874,235.969 287.545,236.396 286.831,237.537 288.259,239.25 286.118,240.965 286.118,244.104
             284.119,245.814 282.265,244.531 278.269,247.242 273.272,247.385 265.853,249.383 265.853,252.998 262.428,257.945
@@ -277,9 +277,9 @@ const Map = () => {
               id="SP"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             265.853,252.998 265.853,249.383 260.715,250.906 258.433,249.191 254.816,249.764 254.436,251.857 249.107,254.141
             246.92,249.383 248.156,245.293 247.301,241.391 243.685,240.346 242.163,237.967 242.733,234.637 241.688,232.447
@@ -299,9 +299,9 @@ const Map = () => {
               id="BA"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             327.932,147.063 324.364,145.493 326.077,143.068 327.932,142.497 328.217,139.5 324.221,137.646 324.078,136.075
             325.648,134.363 324.364,131.508 323.079,128.797 321.653,127.37 319.654,127.227 319.226,125.799 317.514,125.799
@@ -337,9 +337,9 @@ const Map = () => {
               id="MT"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               d="M156.346,203.24
             l1.142,1.141l3.33-1.711l3.33,0.477l1.617,1.711l4.758,1.713l1.903-0.191l2.949-1.998l2.474,0.762l2.379-0.285l2.378-2.664
             l1.713,0.381l0.38,1.047l-0.286,3.426l1.522,1.711l2.094,1.143l1.331-1.047v-1.428l-1.142-1.047l-0.475-4.186l0.38-2.188
@@ -357,9 +357,9 @@ const Map = () => {
               className="state"
               id="RS"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.714,320.738 214.667,320.357 217.235,316.076 219.899,313.508 219.71,311.795 218.378,310.844 216.569,311.32
             214.478,312.271 213.052,312.271 211.053,310.463 209.054,306.941 207.342,303.613 205.153,302.566 201.348,301.615
@@ -382,9 +382,9 @@ const Map = () => {
               className="state"
               id="SC"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             224.823,285.988 220.686,288.344 217.401,286.346 214.478,286.844 212.052,286.273 207.199,289.414 205.985,291.197
             206.058,292.98 204.844,293.695 199.706,292.695 196.425,291.34 193.927,291.41 192.356,289.484 189.502,290.197 186.648,288.984
@@ -404,9 +404,9 @@ const Map = () => {
               id="PR"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             234.456,277.734 235.218,274.689 232.173,276.213 229.318,273.357 228.368,269.744 224.942,269.172 221.898,269.363
             220.375,266.127 220.757,263.463 220.945,258.326 218.663,256.424 212.384,257.186 207.056,254.33 203.061,254.33 202.109,254.33
@@ -425,9 +425,9 @@ const Map = () => {
               id="MS"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             184.604,263.369 185.364,259.564 186.887,256.709 190.407,253.475 194.213,249.859 197.828,247.385 201.252,243.865
             203.44,239.393 204.394,237.775 204.772,235.875 208.389,231.688 208.959,230.164 209.815,227.217 211.147,222.84
@@ -442,9 +442,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             157.108,70.571 159.676,67.574 161.817,63.864 159.534,63.864 156.251,66.717 154.681,68.573"
             />
@@ -453,9 +453,9 @@ const Map = () => {
               id="PI"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             303.146,108.199 302.481,105.345 299.818,105.345 298.961,100.017 299.247,97.543 297.915,96.401 297.724,94.308 298.392,93.167
             296.679,91.55 296.012,87.649 297.629,84.89 296.772,80.132 294.585,78.516 294.3,76.422 295.833,73.344 292.888,73.146
@@ -473,9 +473,9 @@ const Map = () => {
               id="MA"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             253.295,131.508 253.866,128.654 256.149,126.371 256.007,121.947 256.434,119.663 260.715,116.952 267.707,112.813
             269.991,109.246 272.132,108.532 276.27,110.387 277.555,110.245 278.696,108.104 279.98,104.536 278.125,101.396 277.84,99.255
@@ -506,9 +506,9 @@ const Map = () => {
               id="PA"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               d="M228.32,92.976
             l4.28-0.713l3.426-2.996l2.068-2.926l3.283-4.352l0.356-1.927l-0.499-2.712l0.143-0.784l0.856-1.284l3.496-3.568l1.213-1.427
             l1.785-4.067l1.283-4.282l1.143-3.14l0.713-0.785l1.431-0.232l0.351-0.845l-0.25-0.696l-0.699-0.199l-1.298,0.397l-0.749-0.944
@@ -547,9 +547,9 @@ const Map = () => {
               id="DF"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             243.685,184.499 241.021,183.357 235.122,183.833 234.933,185.83 233.695,186.876 233.791,190.873 243.876,190.873
             243.781,187.447"
@@ -560,9 +560,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             211.845,27.945 212.012,28.675 212.343,28.741 212.776,29.967 213.642,30.1 214.606,28.807 213.575,26.619 213.275,26.619
             213.275,26.984 212.178,27.448       "
@@ -571,9 +571,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             212.012,26.885 212.144,27.282 213.008,26.917 212.976,26.52 212.109,26.222 211.645,26.719 211.744,26.885         "
             />
@@ -581,9 +581,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.406,29.835 215.205,29.371 215.006,29.636 215.306,29.967         "
             />
@@ -591,9 +591,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             216.454,36.738 216.121,36.738 215.688,37.07 215.654,37.435 216.221,37.269       "
             />
@@ -601,9 +601,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.771,38.91 216.37,38.446 216.646,37.518 216.347,37.518 216.171,37.924 215.872,37.891 215.639,38.123      "
             />
@@ -611,9 +611,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             219.797,46.913 218.986,47.552 219.118,47.907 219.527,48.369 220.146,48.546 222.279,48.12 222.987,47.09 222.442,46.241
             220.789,46.058      "
@@ -622,9 +622,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             197.483,60.614 197.934,60.963 199.23,60.714 199.729,60.316 199.13,59.919        "
             />
@@ -632,9 +632,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             194.536,60.515 194.836,60.714 196.534,60.267 195.835,60.018         "
             />
@@ -642,9 +642,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             190.943,61.809 191.667,61.51 191.692,61.013 190.843,61.51       "
             />
@@ -652,9 +652,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             207.318,54.847 207.967,51.267 207.717,50.123 206.52,50.073 203.374,51.465 201.576,55.394 201.977,56.239 201.426,57.233
             199.929,57.78 199.629,58.924 199.23,59.72 200.229,60.316 203.974,57.432 204.073,56.886 205.87,55.891        "
@@ -663,9 +663,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             201.127,56.189 200.579,57.184 201.028,56.985 201.477,56.388         "
             />
@@ -673,9 +673,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             205.071,57.582 205.722,56.836 204.272,57.432 204.123,58.079         "
             />
@@ -683,9 +683,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             207.768,55.642 208.218,54.946 208.218,53.703 207.717,54.3 207.567,55.046 205.87,56.289 206.67,56.289        "
             />
@@ -693,9 +693,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             208.641,55.816 209.739,55.369 209.59,55.12 207.793,55.816 207.394,56.612 208.291,56.413         "
             />
@@ -703,9 +703,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             209.516,54.101 208.517,54.548 208.366,55.145 209.415,54.399         "
             />
@@ -713,9 +713,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             210.913,52.062 210.612,52.311 210.289,51.813 209.04,52.808 208.666,53.305 208.517,54.349 210.963,52.858         "
             />
@@ -723,9 +723,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             210.714,53.455 209.864,53.902 209.864,54.449 210.413,54.748 210.763,53.952      "
             />
@@ -733,9 +733,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             210.763,55.394 210.863,54.896 210.512,55.096 209.964,55.096 210.264,55.493      "
             />
@@ -743,9 +743,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             211.461,53.852 211.263,53.553 211.212,54.151        "
             />
@@ -753,9 +753,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             208.417,51.565 208.167,52.56 208.167,53.106 208.517,52.51       "
             />
@@ -763,9 +763,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             208.816,52.261 209.564,51.813 209.64,51.192 208.94,51.59        "
             />
@@ -773,9 +773,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             208.268,50.869 208.017,50.272 208.066,50.869        "
             />
@@ -783,9 +783,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             209.465,48.73 208.816,48.929 208.916,49.675 208.417,50.172 208.717,50.521 209.365,49.824 209.365,49.377 210.812,48.482
             210.063,48.382 209.664,47.935       "
@@ -794,9 +794,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             204.921,50.073 204.622,50.571 206.42,49.725 206.22,49.278       "
             />
@@ -804,9 +804,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             207.268,47.687 206.568,48.73 206.568,49.079 209.116,47.438 209.116,46.245 207.816,46.891        "
             />
@@ -814,9 +814,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             208.466,48.979 207.368,49.477 207.417,49.824 208.466,49.377         "
             />
@@ -824,9 +824,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             211.212,48.283 210.014,47.835 210.313,48.134        "
             />
@@ -834,9 +834,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             213.609,46.145 213.31,45.3 211.861,45.996 210.313,45.996 209.864,47.14 209.964,47.438 211.362,47.785 211.461,48.134
             212.012,47.487 213.209,47.09        "
@@ -845,9 +845,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             212.109,47.885 211.062,48.83 211.961,48.83      "
             />
@@ -855,9 +855,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             211.212,49.178 210.362,49.228 209.116,50.919 209.964,51.018         "
             />
@@ -865,9 +865,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             211.712,49.328 211.362,49.377 210.213,50.968 211.712,50.67      "
             />
@@ -875,9 +875,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             212.46,49.775 211.961,50.073 212.012,50.471         "
             />
@@ -885,9 +885,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             212.859,45.2 212.66,44.553 211.013,45.349 210.963,45.697 212.012,45.498         "
             />
@@ -895,9 +895,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             217.203,45.051 216.604,44.454 215.406,44.553 215.306,45.846 215.555,46.394 217.752,46.344 217.902,46.891 218.427,47.164
             221.072,45.523 220.647,44.952 222.396,43.907 221.846,43.41 220.947,43.808 219.4,43.858 218.4,44.902         "
@@ -906,9 +906,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             214.906,46.145 214.508,45.598 213.958,45.647 213.908,46.245 214.558,46.741      "
             />
@@ -916,9 +916,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             214.208,44.852 213.758,44.752 213.908,45.25 214.208,45.25       "
             />
@@ -926,9 +926,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.106,44.852 214.407,44.752 214.707,45.2 215.056,45.151       "
             />
@@ -936,9 +936,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.256,44.106 216.204,43.957 216.754,43.559 215.904,43.261 215.654,42.216 215.904,40.376 215.355,40.327 215.505,39.73
             214.657,40.128 214.558,41.471 214.757,42.664 214.058,43.062 213.858,44.255 215.106,44.553       "
@@ -947,9 +947,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             216.154,41.869 216.803,42.565 217.902,41.918 218.552,40.426 218.151,40.178 218.002,40.675 216.354,40.625        "
             />
@@ -957,9 +957,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             217.802,43.559 217.004,44.057 217.401,44.206 218.701,43.907 218.851,42.962 218.102,42.664       "
             />
@@ -967,9 +967,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             215.505,63.35 216.255,63.647 217.303,63.449 217.752,63.002 215.705,63.002       "
             />
@@ -977,9 +977,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             222.894,65.563 223.393,64.866 223.243,64.568 222.894,65.164         "
             />
@@ -987,9 +987,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             222.346,66.831 222.744,66.582 222.645,66.283 221.996,66.831         "
             />
@@ -997,9 +997,9 @@ const Map = () => {
             <polygon
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             227.736,60.068 227.937,60.068 228.186,59.67 227.837,59.62       "
             />
@@ -1008,9 +1008,9 @@ const Map = () => {
               id="ES"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             300.389,208.189 300.77,209.9 301.911,211.328 300.484,212.088 298.392,211.424 297.249,212.373 298.01,214.943 296.108,216.654
             296.772,218.844 298.486,220.461 298.866,223.6 296.012,225.979 295.061,230.164 291.35,230.832 290.685,230.928 290.874,235.969
@@ -1022,9 +1022,9 @@ const Map = () => {
               id="SE"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             338.778,139.356 335.496,136.218 332.641,136.218 330.357,132.65 324.364,131.508 325.648,134.363 324.078,136.075
             324.221,137.646 328.217,139.5 327.932,142.497 326.077,143.068 324.364,145.493 327.932,147.063 327.932,148.918
@@ -1036,9 +1036,9 @@ const Map = () => {
               id="AL"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             343.915,126.656 341.489,125.799 340.49,129.225 337.351,128.797 334.782,130.366 333.782,128.939 332.213,128.654
             332.213,127.37 330.644,126.228 329.073,127.37 327.646,125.372 326.647,127.655 323.079,128.797 324.364,131.508 330.357,132.65
@@ -1050,9 +1050,9 @@ const Map = () => {
               id="RN"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             328.073,101.539 330.785,99.113 333.64,99.684 332.784,101.824 331.356,101.824 329.645,104.965 331.356,104.821 331.499,106.677
             335.352,105.678 335.78,107.676 338.492,106.677 337.636,103.537 340.918,102.109 341.917,103.965 344.057,102.681
@@ -1065,9 +1065,9 @@ const Map = () => {
               id="PB"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             326.361,113.241 328.502,112.956 329.787,111.101 334.496,111.386 334.496,112.813 332.213,113.099 333.068,115.097
             330.785,116.381 331.928,118.521 334.068,118.094 335.496,120.233 337.636,119.663 337.779,117.237 343.202,114.811
@@ -1083,9 +1083,9 @@ const Map = () => {
               id="PE"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             353.19,108.817 350.337,109.959 349.053,113.527 346.627,112.956 345.057,114.098 345.627,115.239 344.057,115.953
             343.202,114.811 337.779,117.237 337.636,119.663 335.496,120.233 334.068,118.094 331.928,118.521 330.785,116.381
@@ -1103,9 +1103,9 @@ const Map = () => {
               id="RO"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             124.569,162.477 127.71,161.478 127.138,158.908 128.852,157.48 126.139,151.773 127.71,149.204 126.853,145.637 122.429,144.78
             117.862,145.493 116.579,143.21 113.867,142.354 113.438,138.073 115.008,132.364 113.438,129.082 114.58,126.371
@@ -1119,9 +1119,9 @@ const Map = () => {
               id="AP"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             174.328,33.609 182.51,36.083 183.271,39.508 185.745,41.22 187.267,42.172 187.647,46.548 190.692,50.164 193.736,53.398
             194.879,54.349 195.259,55.682 194.497,57.014 195.068,58.346 197.635,58.516 199.081,57.73 200.928,54.051 201.527,53.852
@@ -1139,9 +1139,9 @@ const Map = () => {
               id="AC"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             34.662,120.662 27.527,118.949 16.253,117.808 9.973,116.096 2.199,113.858 0.134,114.5 0,116.356 1.532,117.948 2.131,120.037
             6.224,124.611 8.221,126.103 8.521,128.191 9.22,129.882 7.523,133.064 8.521,134.258 13.413,133.761 14.313,135.054
@@ -1154,9 +1154,9 @@ const Map = () => {
               id="CE"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             329.781,88.412 328.383,88.61 327.285,87.666 326.786,86.124 326.187,85.428 324.589,84.632 321.743,81.549 317.051,78.366
             313.706,75.582 312.009,75.333 307.715,72.449 305.469,71.902 301.823,72.647 295.833,73.344 294.3,76.422 294.585,78.516
@@ -1172,9 +1172,9 @@ const Map = () => {
               id="RR"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             101.308,34.037 104.162,37.748 104.447,44.455 107.017,50.877 105.874,53.018 112.725,58.869 113.01,54.445 116.721,50.734
             119.146,54.017 123.999,53.446 123.428,49.878 126.71,48.451 128.28,44.027 137.771,43.884 136.926,36.548 135.578,34.857
@@ -1189,9 +1189,9 @@ const Map = () => {
               id="AM"
               className="state"
               stroke="#FFFFFF"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-miterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeMiterlimit="10"
               points="
             159.534,63.864 156.251,66.717 155.966,64.435 152.255,61.866 144.834,61.009 143.408,59.154 142.123,55.016 139.269,53.018
             137.699,48.023 137.771,43.884 128.28,44.027 126.71,48.451 123.428,49.878 123.999,53.446 119.146,54.017 116.721,50.734
