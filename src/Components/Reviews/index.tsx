@@ -15,15 +15,18 @@ import {
 
 export function Reviews() {
   return (
-    <section className="m-2 mt-4 flex-wrap justify-center items-center">
+    <section className="m-2 mt-4 justify-center">
+            <div className="max-w-5xl mx-auto rounded-sm px-4">
+
       <Carousel className="cursor-grab px-5 ">
-        <CarouselContent className="p-2 m-2 sm:basis-1/2 
-                md:basis-1/3 
-                max-w-xs">
+        <CarouselContent
+          className="p-2 m-2 gap-2
+                max-w-xs "
+        >
           {reviews.map((review) => {
             return (
               <CarouselItem>
-                <Card className="w-full max-w-sm mx-auto border border-[var(--color-primary-self)] bg-[var(--color-bg-self)] text-[var(--color-text-self)] hover:border-[var(--color-accent-hover-self)] hover:scale-106 select-none">
+                <Card className=" w-full max-w-sm mx-auto border border-[var(--color-primary-self)] bg-[var(--color-bg-self)] text-[var(--color-text-self)] hover:border-[var(--color-accent-hover-self)] hover:scale-106 select-none">
                   <CardHeader className="flex">
                     <img src={review.avatar} alt={`${review.name}+" avatar"`} />
                     <CardTitle className="text-xl">{review.name}</CardTitle>
@@ -39,6 +42,7 @@ export function Reviews() {
         {/* <CarouselPrevious className="bg-purple-600 text-white hover:bg-purple-700" />
         <CarouselNext className="bg-purple-600 text-white hover:bg-purple-700" /> */}
       </Carousel>
+      </div>
     </section>
   );
 }
