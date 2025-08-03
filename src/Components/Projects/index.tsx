@@ -4,12 +4,17 @@ import "swiper/css/pagination";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
+import AOS from "aos";
+import { useEffect } from "react";
 
 export function Projects() {
+  useEffect(() => {
+      AOS.init({ once: false,  });
+    }, []);
   return (
     <>
     {/* projects section */}
-    <section className="h-auto mb-30">
+    <section className="h-auto mb-30" data-aos="fade-up">
       <h1 className="text-3xl text-center ">Conheça nossos projetos e atividades</h1>
       <h2 className="text-xl text-center">Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!</h2>
 
