@@ -13,14 +13,12 @@ export function Home() {
       <Container>
         <InfoCard />
 
-      <Projects />
-        
-       
+        <Projects />
+
         <Members />
 
         <MembersMap />
 
-        <h1 className="text-3xl text-center mt-2">Depoimentos</h1>
         <Reviews />
       </Container>
       <Cta />

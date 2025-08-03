@@ -12,10 +12,15 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-
+import { useEffect } from "react";
+import AOS from "aos";
 export function Reviews() {
+  useEffect(() => {
+    AOS.init({ once: false });
+  }, []);
   return (
-    <section className="mb-30 justify-center">
+    <section className="mb-30 justify-center" data-aos="fade-up">
+      <h1 className="text-3xl text-center mt-2">Depoimentos</h1>
       <div className="max-w-5xl mx-auto rounded-sm">
         <Carousel className="cursor-grab px-5 ">
           <CarouselContent
