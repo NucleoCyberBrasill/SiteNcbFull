@@ -7,7 +7,8 @@
     "github": "https://github.com/JSchrann",
     "linkedin":"https://www.linkedin.com/in/schrannjulia/",
     "discord": "https://discord.com/users/620413649147789338",
-    "tags": ["cybersec","redes","cloud"]
+    "tags": ["cybersec","redes","cloud"],
+    "course": "si"
   },
   {
     "id": 2,
@@ -16,7 +17,8 @@
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.",
     "github": "https://github.com/Jhonatayu",
     "linkedin": "https://www.linkedin.com/in/jhonata-tavares/",
-    "discord": "https://discord.com/users/357941121160314880"
+    "discord": "https://discord.com/users/357941121160314880",
+    "course":"cc"
   },
   
   {
@@ -25,7 +27,8 @@
     "image": "/imgs/members/rebecca_mello.jpeg",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github": "https://github.com/Rbkmello",
-    "linkedin": "https://www.linkedin.com/in/rebeccabmello"
+    "linkedin": "https://www.linkedin.com/in/rebeccabmello",
+    "course": "cc"
   },{
     "id": 4,
     "name": "Vinícios Mendes",
@@ -34,7 +37,8 @@
     "github": "https://github.com/Vinny7x",
     "linkedin":"https://linkedin.com/in/vinicios-mendes",
     "discord": "https://discord.com/users/864842051882450974",
-    "tags":["dev", "database","cloud","devops"]
+    "tags":["dev", "database","cloud","devops"],
+    "course":"SI"
   },
   {
     "id":5,
@@ -43,7 +47,8 @@
    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github":"https://github.com/iambel",
     "linkedin":"https://www.linkedin.com/in/iambel/",
-    "tags":["dev","datascience","designer"]
+    "tags":["dev","datascience","designer"],
+    "course":"cc"
   },
   {
     "id":6,
@@ -51,21 +56,24 @@
     "image":"/imgs/members/vitor_leao.png",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github":"https://github.com/baddjoke",
-    "linkedin":"https://www.linkedin.com/in/v%C3%ADtor-le%C3%A3o-a19638356/"
+    "linkedin":"https://www.linkedin.com/in/v%C3%ADtor-le%C3%A3o-a19638356/",
+    "course":"ads"
   },{
     "id":7,
     "name":"Willian",
     "image":"/imgs/members/willian_miranda.jpeg",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github":"https://github.com/mimi-utmost",
-    "linkedin":"https://www.linkedin.com/in/willian-miranda-rodrigues/"
+    "linkedin":"https://www.linkedin.com/in/willian-miranda-rodrigues/",
+    "course":"cc"
   },{
     "id":8,
     "name":"Jade Freire",
     "image":"/imgs/members/jade_freire.jpeg",
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.", 
     "github":"https://github.com/JadeFreire21",
-    "linkedin":"www.linkedin.com/in/jade-freire-coelho-marins-b077a9142"
+    "linkedin":"www.linkedin.com/in/jade-freire-coelho-marins-b077a9142",
+    "course":"si"
   },
   {
     "id":9,

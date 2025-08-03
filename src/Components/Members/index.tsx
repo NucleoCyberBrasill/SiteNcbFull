@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import membersData from "./members.json";
 import { useEffect } from "react";
 import {
@@ -50,19 +51,27 @@ const tags: Record<TagKey, React.ReactNode> = {
   designer: <FaPalette title="Design" />,
 };
 
+const courses: Record<string, string> = {
+  si: "Segurança da informação",
+  ads: "Análise e desenvolvimento de sistemas",
+  SI: "sistemas de informação",
+  cc: "Ciências da computação"
+}
+
 export function Members() {
   useEffect(() => {
-    AOS.init({ once: false,  });
+    AOS.init({ once: false });
   }, []);
 
   return (
     <section className="m-2 mb-30 justify-center" data-aos="fade-up">
-       
       <div className="max-w-5xl mx-auto rounded-sm">
-        <Carousel opts={{
-    align: "start",
-
-  }} className="cursor-grab">
+        <Carousel
+          opts={{
+            align: "start",
+          }}
+          className="cursor-grab"
+        >
           <CarouselContent className="flex p-3">
             {membersData.map((member) => (
               <CarouselItem
@@ -80,7 +89,6 @@ export function Members() {
                 hover:scale-106
                 hover:border-[var(--color-accent-hover-self)]
               "
-                
               >
                 <img
                   className="
@@ -97,7 +105,14 @@ export function Members() {
                   className="font-bold text-lg text-center"
                   dangerouslySetInnerHTML={{ __html: member.name }}
                 />
-                <div className="flex flex-wrap gap-2 items-center justify-center p-1">
+                <div className="flex justify-center">
+                  <span className="text-xs">
+
+                    {courses[member.course || ""]}
+                  </span>
+                </div>
+
+                <div className="flex flex-wrap gap-2 items-center justify-center">
                   {member.tags?.map((tag, index) => (
                     <span
                       key={index}
