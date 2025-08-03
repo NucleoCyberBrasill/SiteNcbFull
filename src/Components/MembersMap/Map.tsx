@@ -2,7 +2,7 @@
 
 const Map = () => {
   return (
-    <div className="h-[60vh] flex justify-center items-center pt-20">
+<div className="flex justify-center items-center mt-10 w-full h-full">
       <svg
         version="1.1"
         id="Layer_1"
