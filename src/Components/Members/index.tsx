@@ -56,9 +56,12 @@ export function Members() {
   }, []);
 
   return (
-    <section className="h-auto mb-30 flex justify-center">
-      <div className="max-w-5xl mx-auto rounded-sm px-4">
-        <Carousel className="cursor-grab px-5 ">
+    <section className="m-2 mb-30 justify-center">
+      <div className="max-w-5xl mx-auto rounded-sm">
+        <Carousel opts={{
+    align: "start",
+
+  }} className="cursor-grab">
           <CarouselContent className="flex p-3">
             {membersData.map((member) => (
               <CarouselItem
