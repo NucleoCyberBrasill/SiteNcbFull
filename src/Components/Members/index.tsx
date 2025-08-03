@@ -57,11 +57,7 @@ export function Members() {
 
   return (
     <section className="m-2 mb-30 justify-center" data-aos="fade-up">
-       <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
-        <h2 className="text-xl text-center">
-          Nosso grupo é composto por alunos de diversos cursos, idades e estados
-          do Brasil.
-        </h2>
+       
       <div className="max-w-5xl mx-auto rounded-sm">
         <Carousel opts={{
     align: "start",
