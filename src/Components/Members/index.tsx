@@ -56,7 +56,7 @@ export function Members() {
   }, []);
 
   return (
-    <section className="h-[70vh] flex justify-center">
+    <section className="h-auto mb-30 flex justify-center">
       <div className="max-w-5xl mx-auto rounded-sm px-4">
         <Carousel className="cursor-grab px-5 ">
           <CarouselContent className="flex p-3">

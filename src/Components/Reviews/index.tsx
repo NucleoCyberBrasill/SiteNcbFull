@@ -15,7 +15,7 @@ import {
 
 export function Reviews() {
   return (
-    <section className="m-2 mt-4 justify-center">
+    <section className="m-2 mb-30 justify-center">
             <div className="max-w-5xl mx-auto rounded-sm px-4">
 
       <Carousel className="cursor-grab px-5 ">

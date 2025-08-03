@@ -9,7 +9,7 @@ export function Projects() {
   return (
     <>
     {/* projects section */}
-    <section className="h-[70vh]">
+    <section className="h-auto mb-30">
       <h1 className="text-3xl text-center ">Conheça nossos projetos e atividades</h1>
       <h2 className="text-xl text-center">Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!</h2>
 

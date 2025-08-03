@@ -2,7 +2,7 @@
 
 const Cta = () => {
   return (
-    <div className='h-[60vh] flex justify-center items-center'>CTA section is here!</div>
+    <div className='h-auto mb-30 flex justify-center items-center'>CTA section is here!</div>
   )
 }
 
