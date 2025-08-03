@@ -19,7 +19,7 @@ export function Reviews() {
       <div className="max-w-5xl mx-auto rounded-sm">
         <Carousel className="cursor-grab px-5 ">
           <CarouselContent
-            className="p-2 gap-2
+            className="p-2 gap-2 m-2
                 max-w-xs "
           >
             {reviews.map((review) => {
