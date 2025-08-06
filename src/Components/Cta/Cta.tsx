@@ -7,10 +7,10 @@ const Cta = () => {
   }, []);
   return (
     <div
-      className="h-screen justify-center items-center flex flex-col "
+      className="h-screen justify-center items-center flex flex-col mb-160 mt-180 md:mb-0 md:mt-0"
       data-aos="fade-up"
     >
-      <div className="pb-15">
+      <div>
         <h1 className="text-3xl text-center">
           Quer fazer parte do nosso grupo de estudos?
         </h1>
@@ -21,14 +21,14 @@ const Cta = () => {
         </p>
       </div>
 
-      <div className="w-2/3 h-1/2 flex flex-row gap-10 ">
+      <div className="flex flex-col gap-10 p-10 md:flex-row ">
         <div
           className="
           border-3
           border-[var(--color-primary-self)]
           p-6
-          w-1/2 
-          h-6/7
+          max-w-120 
+          max-h-200
           rounded-xl
           hover:scale-105
           transition-transform
@@ -67,8 +67,8 @@ const Cta = () => {
           className="
         border-3
         border-[var(--color-primary-self)] 
-        w-1/2
-        h-6/7
+        max-w-120  
+        max-h-200
         p-6 
         rounded-xl
         hover:scale-105 
@@ -113,8 +113,8 @@ const Cta = () => {
           border-3
           border-[var(--color-primary-self)]
           p-6
-          w-1/2
-          h-6/7
+          max-w-120  
+          max-h-200
           rounded-xl 
           hover:scale-105 
           transition-transform
@@ -145,9 +145,9 @@ const Cta = () => {
         </div>
       </div>
 
-      <div>
-        <h2 className="text-center text-2xl">Junte-se a nós!</h2>
-        <p className="text-lg">
+      <div className="p-8">
+        <h2 className="text-center text-2xl pb-2">Junte-se a nós!</h2>
+        <p className="text-lg text-center">
           Se você quer aprender, compartilhar e se preparar para os desafios do
           mundo digital com apoio de uma comunidade engajada, o NCB é o seu
           lugar!
