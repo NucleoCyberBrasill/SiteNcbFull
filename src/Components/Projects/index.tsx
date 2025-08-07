@@ -6,47 +6,53 @@ import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
 import AOS from "aos";
 import { useEffect } from "react";
+import { Title } from "../Title";
 
 export function Projects() {
   useEffect(() => {
-      AOS.init({ once: false,  });
-    }, []);
+    AOS.init({ once: false });
+  }, []);
   return (
     <>
-    {/* projects section */}
-    <section className="h-auto mb-30" data-aos="fade-up">
-      <h1 className="text-3xl text-center ">Conheça nossos projetos e atividades</h1>
-      <h2 className="text-xl text-center">Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!</h2>
+      {/* projects section */}
+      <section className="h-auto mb-30" data-aos="fade-up">
+        <Title
+          center={true}
+          subtitle="Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!"
+        >
+          Conheça nossos projetos e atividades
+        </Title>
 
-           
-      <Swiper
-        pagination={{ clickable: true }}
-        modules={[Pagination, Mousewheel]}
-        spaceBetween={20}
-        breakpoints={{
-          0: { slidesPerView: 1 },
-          1100: { slidesPerView: 2 },
-        }}
-        className="max-w-[95%] mx-auto border-[var(--color-primary-self)] border-3 rounded mt-8"
-      >
-        {projects.slice().reverse().map((project, index) => (
-          <SwiperSlide
-            key={index}
-            className="flex justify-center items-center p-4"
-          >
-            <ProjectCard
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              link={project.link}
-              buttonText={project.buttonText}
-              status={project.status}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </section>
-
+        <Swiper
+          pagination={{ clickable: true }}
+          modules={[Pagination, Mousewheel]}
+          spaceBetween={20}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            1100: { slidesPerView: 2 },
+          }}
+          className="max-w-[95%] mx-auto border-[var(--color-primary-self)] border-3 rounded mt-8"
+        >
+          {projects
+            .slice()
+            .reverse()
+            .map((project, index) => (
+              <SwiperSlide
+                key={index}
+                className="flex justify-center items-center p-4"
+              >
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  link={project.link}
+                  buttonText={project.buttonText}
+                  status={project.status}
+                />
+              </SwiperSlide>
+            ))}
+        </Swiper>
+      </section>
     </>
   );
 }

@@ -6,19 +6,19 @@ import { Projects } from "../../Components/Projects";
 import Cta from "../../Components/Cta/Cta";
 import { Reviews } from "../../Components/Reviews";
 import MembersMap from "../../Components/MembersMap/MembersMap";
+import { Title } from "@/Components/Title";
 
 export function Home() {
   return (
     <MainTemplate>
       <Container>
         <InfoCard />
-
         <Projects />
-        <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
-        <h2 className="text-xl text-center">
-          Nosso grupo é composto por alunos de diversos cursos, idades e estados
-          do Brasil.
-        </h2>
+        <Title
+        center={true}
+        subtitle="Nosso grupo é composto por alunos de diversos cursos, idades e estados
+          do Brasil."
+        >Integrantes do NCB</Title>
         <div className="flex flex-col md:flex-row justify-center gap-2">
   <MembersMap />
   <Members />
