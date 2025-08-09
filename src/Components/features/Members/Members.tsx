@@ -11,7 +11,7 @@ import {
   CarouselItem,
   // CarouselNext,
   // CarouselPrevious,
-} from "@/components/ui/Carousel";
+} from "@/Components/ui/Carousel";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
