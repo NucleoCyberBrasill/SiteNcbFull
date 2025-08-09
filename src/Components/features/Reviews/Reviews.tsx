@@ -4,7 +4,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/Components/ui/Card";
+} from "@/components/ui/Card";
 
 import reviews from "./reviews.json";
 
@@ -12,7 +12,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/Components/ui/Carousel";
+} from "@/components/ui/Carousel"
 
 import { useEffect } from "react";
 import AOS from "aos";
