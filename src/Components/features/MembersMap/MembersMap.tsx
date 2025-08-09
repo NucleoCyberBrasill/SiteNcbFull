@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import Map from "./Map";
+
+// seção do mapa dos membros
+
 const MembersMap = () => {
   useEffect(() => {
     AOS.init({ once: false });

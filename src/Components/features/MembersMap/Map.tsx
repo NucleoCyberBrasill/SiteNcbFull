@@ -1,8 +1,9 @@
-// mapa
+// componente do mapa em svg separado
+// créditos: https://github.com/luisdalmolin/mapa-brasil-svg
 
 const Map = () => {
   return (
-<div className="flex justify-center items-center mt-10 w-full h-full">
+    <div className="flex justify-center items-center mt-10 w-full h-full">
       <svg
         version="1.1"
         id="Layer_1"

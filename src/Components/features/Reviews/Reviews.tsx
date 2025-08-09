@@ -4,24 +4,25 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/Components/ui/Card";
 
 import reviews from "./reviews.json";
+
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/Carousel";
+
 import { useEffect } from "react";
 import AOS from "aos";
-import { Title } from "../Title";
 export function Reviews() {
   useEffect(() => {
     AOS.init({ once: false });
   }, []);
   return (
     <section className="mb-30 justify-center" data-aos="fade-up">
-      <Title center={true}>Depoimentos</Title>
+      <h1 className="text-3xl text-center mt-2">Depoimentos</h1>
       <div className="max-w-5xl mx-auto rounded-sm">
         <Carousel className="cursor-grab px-5 ">
           <CarouselContent

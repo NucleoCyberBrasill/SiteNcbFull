@@ -1,6 +1,6 @@
 import type React from "react";
-import { Menu } from "../../Components/Menu";
-import { Footer } from "../../Components/Footer";
+import { Menu } from "./Header";
+import { Footer } from "./Footer";
 
 type mainTemplateProps = {
   children: React.ReactNode;

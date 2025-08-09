@@ -137,7 +137,7 @@ body {
   }
 }
 
-/* MembersMap colors */
+/* MembersMap */
 @layer components {
   .state {
     cursor: default;
@@ -157,8 +157,15 @@ body {
   #RJ.state,
   #PR.state,
   #TO.state,
+  #PI.state,
   #DF.state {
     fill: #2c009e;
-    cursor: pointer;
+    cursor: default;
   }
 }
+
+/* Container
+@layer components {
+  .container {
+    margin: 0, auto;
+  }*/

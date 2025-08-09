@@ -43,8 +43,7 @@ export function Menu() {
     return storageTheme;
   });
 
-
-  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
   const nextThemeIcon = {
     dark: <SunIcon className="w-8 h-8" />,
@@ -71,7 +70,7 @@ export function Menu() {
         <div className="flex items-center space-x-3">
           <span className="text-3xl font-bold">NCB</span>
         </div>
-      
+
         <div className="flex items-center space-x-3">
           {/* Ícone de tema - mobile apenas */}
           <a
@@ -97,11 +96,11 @@ export function Menu() {
         <ul className="hidden md:flex items-center space-x-8">
           <li>
             <Link
-                to="/"
-                className="flex items-center gap-1 hover:text-gray-400"
-              >
-                <HomeIcon className="w-6 h-6" /> Início
-              </Link>
+              to="/"
+              className="flex items-center gap-1 hover:text-gray-400"
+            >
+              <HomeIcon className="w-6 h-6" /> Início
+            </Link>
           </li>
           <li>
             <Link
@@ -112,7 +111,10 @@ export function Menu() {
             </Link>
           </li>
           <li>
-            <Link to="/blog" className="flex items-center gap-1 hover:text-gray-400">
+            <Link
+              to="/blog"
+              className="flex items-center gap-1 hover:text-gray-400"
+            >
               <FolderIcon className="w-6 h-6" /> Blog
             </Link>
           </li>

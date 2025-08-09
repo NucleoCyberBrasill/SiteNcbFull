@@ -1,4 +1,4 @@
-import { MainTemplate } from "@/templates/MainTemplate";
+import { MainTemplate } from "@/Components/layouts/MainTemplate";
 
 export function About() {
   return (

@@ -11,7 +11,7 @@ import {
   CarouselItem,
   // CarouselNext,
   // CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Components/ui/Carousel";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -55,8 +55,8 @@ const courses: Record<string, string> = {
   si: "Segurança da informação",
   ads: "Análise e desenvolvimento de sistemas",
   SI: "sistemas de informação",
-  cc: "Ciências da computação"
-}
+  cc: "Ciências da computação",
+};
 
 export function Members() {
   useEffect(() => {
@@ -107,7 +107,6 @@ export function Members() {
                 />
                 <div className="flex justify-center">
                   <span className="text-xs">
-
                     {courses[member.course || ""]}
                   </span>
                 </div>

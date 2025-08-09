@@ -6,9 +6,17 @@ import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
 import AOS from "aos";
 import { useEffect } from "react";
-import { Title } from "../Title";
+import { Title } from "../../ui/Title";
 
-export function Projects() {
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * @function Projects
+ * @description Renderiza a se o de projetos e atividades do grupo.
+ * @returns {JSX.Element} O componente JSX da se o de projetos e atividades.
+ * @example
+ * <Projects />
+ */
+/*******  1241473f-cb32-438e-b172-e819d9908afa  *******/ export function Projects() {
   useEffect(() => {
     AOS.init({ once: false });
   }, []);

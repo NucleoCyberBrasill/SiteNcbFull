@@ -8,7 +8,7 @@ type ProjectCardProps = {
   image: string;
   link: string;
   buttonText: string;
-  status: string
+  status: string;
 };
 
 export function ProjectCard({
@@ -17,11 +17,10 @@ export function ProjectCard({
   image,
   link,
   buttonText,
-  status
+  status,
 }: ProjectCardProps) {
   return (
-     <div className="flex flex-col md:flex-row gap-4 items-center md:items-start p-4 w-full ">
-
+    <div className="flex flex-col md:flex-row gap-4 items-center md:items-start p-4 w-full ">
       <img
         src={image}
         alt={`Imagem referente ao projeto ${title}`}
@@ -38,18 +37,20 @@ export function ProjectCard({
           <h2 className="text-2xl font-bold mb-2 text-[rgb(var(--color-primary-self))]">
             {title}
           </h2>
-          {status=="DONE" &&(
-           <span className="text-white inline-flex items-center gap-2 mb-2 bg-green-600 p-1 border border-[var(--color-text-self)] rounded">
-  <CheckCheckIcon /> Disponível
-</span>
+          {status == "DONE" && (
+            <span className="text-white inline-flex items-center gap-2 mb-2 bg-green-600 p-1 border border-[var(--color-text-self)] rounded">
+              <CheckCheckIcon /> Disponível
+            </span>
           )}
-          {status=="IN_PROGRESS" &&(
-           <span className="text-white inline-flex items-center gap-2 mb-2 bg-gray-500 p-1 border border-[var(--color-text-self)] rounded">
-  <ClockIcon /> Em progresso
-</span>
+          {status == "IN_PROGRESS" && (
+            <span className="text-white inline-flex items-center gap-2 mb-2 bg-gray-500 p-1 border border-[var(--color-text-self)] rounded">
+              <ClockIcon /> Em progresso
+            </span>
           )}
           {description.split("\n").map((line, index) => (
-            <p key={index} className="text-[rgb(var(--color-text-self))]">{line}</p>
+            <p key={index} className="text-[rgb(var(--color-text-self))]">
+              {line}
+            </p>
           ))}
         </div>
         <a

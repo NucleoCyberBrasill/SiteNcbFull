@@ -1,7 +1,6 @@
 // CTA section, convite/explicação de como participar
 import { useEffect } from "react";
 import AOS from "aos";
-import { Title } from "../Title";
 const Cta = () => {
   useEffect(() => {
     AOS.init({ once: false });
@@ -12,14 +11,14 @@ const Cta = () => {
       data-aos="fade-up"
     >
       <div>
-        <Title
-          center={true}
-          subtitle="Participar do NCB é simples e uma excelente oportunidade para aprender
-          mais sobre Segurança da Informação, trocar experiências e ainda
-          acumular horas complementares!"
-        >
+        <h1 className="text-3xl text-center">
           Quer fazer parte do nosso grupo de estudos?
-        </Title>
+        </h1>
+        <p className="text-xl text-center">
+          Participar do NCB é simples e uma excelente oportunidade para aprender
+          mais sobre Segurança da Informação, trocar experiências e ainda
+          acumular horas complementares!
+        </p>
       </div>
 
       <div className="flex flex-col gap-10 p-10 md:flex-row ">
