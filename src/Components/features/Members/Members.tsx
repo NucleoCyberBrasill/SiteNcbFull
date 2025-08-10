@@ -102,9 +102,10 @@ export function Members() {
                 />
 
                 <h3
-                  className="font-bold text-lg text-center"
-                  dangerouslySetInnerHTML={{ __html: member.name }}
-                />
+                  className={`font-bold text-lg text-center ${member.adm?"text-yellow-400":""}`}
+                >
+                {member.name}
+                </h3>
                 <div className="flex justify-center">
                   <span className="text-xs">
                     {courses[member.course || ""]}

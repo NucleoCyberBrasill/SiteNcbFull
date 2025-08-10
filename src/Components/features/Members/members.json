@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "name": "<span class='text-yellow-500'>Julia Schrann</span>",
+    "adm": true,
+    "name": "Julia Schrann",
     "image": "/imgs/members/julia_schrann.jpeg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio consequatur id alias quibusdam esse commodi eligendi ullam dolorum.",
     "github": "https://github.com/JSchrann",
