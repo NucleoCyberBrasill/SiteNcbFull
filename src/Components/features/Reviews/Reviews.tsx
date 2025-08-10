@@ -22,9 +22,9 @@ export function Reviews() {
             className="p-2 gap-2 m-2
                 max-w-xs "
           >
-            {reviews.map((review) => {
+            {reviews.map((review, index) => {
               return (
-                <CarouselItem>
+                <CarouselItem key={index}>
                   <Card className="border border-[var(--color-primary-self)] bg-[var(--color-bg-self)] text-[var(--color-text-self)] hover:border-[var(--color-accent-hover-self)] hover:scale-106 select-none">
                     <CardHeader className="flex">
                       <img
