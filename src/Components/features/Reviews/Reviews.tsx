@@ -5,21 +5,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/Components/ui/Card";
-
 import reviews from "./reviews.json";
-
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/Components/ui/Carousel"
+} from "@/Components/ui/Carousel";
 
-import { useEffect } from "react";
-import AOS from "aos";
 export function Reviews() {
-  useEffect(() => {
-    AOS.init({ once: false });
-  }, []);
   return (
     <section className="mb-30 justify-center" data-aos="fade-up">
       <h1 className="text-3xl text-center mt-2">Depoimentos</h1>

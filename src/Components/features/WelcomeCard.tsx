@@ -1,10 +1,4 @@
-import { useEffect } from "react";
-import AOS from "aos";
-
 export function WelcomeCard() {
-  useEffect(() => {
-    AOS.init({ once: false });
-  }, []);
   return (
     // hero section
     <section

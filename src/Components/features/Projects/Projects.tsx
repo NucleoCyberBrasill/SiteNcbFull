@@ -4,8 +4,6 @@ import "swiper/css/pagination";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
-import AOS from "aos";
-import { useEffect } from "react";
 import { Title } from "../../ui/Title";
 
 /*************  ✨ Windsurf Command ⭐  *************/
@@ -17,9 +15,6 @@ import { Title } from "../../ui/Title";
  * <Projects />
  */
 /*******  1241473f-cb32-438e-b172-e819d9908afa  *******/ export function Projects() {
-  useEffect(() => {
-    AOS.init({ once: false });
-  }, []);
   return (
     <>
       {/* projects section */}

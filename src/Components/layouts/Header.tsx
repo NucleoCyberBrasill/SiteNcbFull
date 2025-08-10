@@ -9,20 +9,13 @@ import {
   FolderIcon,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-
 type themes = "dark" | "light";
 
 // switch theme logic
 
 export function Menu() {
-  useEffect(() => {
-    AOS.init({
-      once: true,
-    });
-  }, []);
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
     function handleResize(e: MediaQueryListEvent) {

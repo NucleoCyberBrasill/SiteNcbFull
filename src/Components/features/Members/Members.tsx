@@ -12,11 +12,8 @@ import {
   // CarouselNext,
   // CarouselPrevious,
 } from "@/Components/ui/Carousel";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import membersData from "./members.json";
-import { useEffect } from "react";
 import {
   FaChartBar,
   FaChartLine,
@@ -59,10 +56,6 @@ const courses: Record<string, string> = {
 };
 
 export function Members() {
-  useEffect(() => {
-    AOS.init({ once: false });
-  }, []);
-
   return (
     <section className="m-2 mb-30 justify-center" data-aos="fade-up">
       <div className="max-w-5xl mx-auto rounded-sm">
