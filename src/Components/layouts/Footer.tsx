@@ -15,6 +15,7 @@ export function Footer() {
             src="https://nucleocyberbrasil.my.canva.site/_assets/media/475ff7b3a0e26da738094f39fb84e693.png"
             alt="Logo"
             className="w-60 h-50 object-contain md:w-80"
+            loading="lazy"
           />
         </div>
 

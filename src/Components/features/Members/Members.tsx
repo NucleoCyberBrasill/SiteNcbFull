@@ -97,14 +97,17 @@ export function Members() {
                   object-cover aspect-square 
                   rounded-full mx-auto mb-2
                 "
+                  loading="lazy"
                   src={member.image}
                   alt={`Foto de perfil de ${member.name}`}
                 />
 
                 <h3
-                  className={`font-bold text-lg text-center ${member.adm?"text-yellow-400":""}`}
+                  className={`font-bold text-lg text-center ${
+                    member.adm ? "text-yellow-400" : ""
+                  }`}
                 >
-                {member.name}
+                  {member.name}
                 </h3>
                 <div className="flex justify-center">
                   <span className="text-xs">

@@ -31,6 +31,7 @@ export function ProjectCard({
           object-contain md:object-cover
           max-h-64
         "
+        loading="lazy"
       />
       <div className="md:text-start text-center flex flex-col justify-between">
         <div>
