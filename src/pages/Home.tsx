@@ -12,7 +12,6 @@ export function Home() {
     <MainTemplate>
       <Container>
         <WelcomeCard />
-
         <Projects />
         <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
         <h2 className="text-xl text-center">
@@ -23,7 +22,6 @@ export function Home() {
           <MembersMap />
           <Members />
         </div>
-
         <Reviews />
       </Container>
       <Cta />

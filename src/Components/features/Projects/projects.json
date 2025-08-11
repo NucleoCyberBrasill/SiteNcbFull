@@ -6,7 +6,7 @@
         "description": "Após a escrita, tivemos o lançamento oficial do livro!\nA Julia representou o NCB no evento e também apresentou uma palestra sobre conceitos introdutórios de Segurança da Informação.",
         "image": "/imgs/projects/lancamento-ebook.png",
         "link": "https://www.linkedin.com/posts/schrannjulia_na-%C3%BAltima-ter%C3%A7a-feira-29042025-tive-activity-7325648061177716737-sdCJ",
-        "buttonText": "Acesse aqui"
+        "buttonText": "Acessar"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "description": "Escrevemos o nosso primeiro e-book, um guia introdutório sobre Segurança da Informação. Esse foi um projeto incrível, feito com muito carinho.\n\nO livro pode ser acessado na biblioteca da faculdade (basta pesquisar por Núcleo Cyber Brasil).",
         "image": "/imgs/projects/ebook.png",
         "link": "https://drive.google.com/file/d/1A8x4MUlYo-Q9-3USi0GuHQN2ngDwNXEv/view?usp=sharing",
-        "buttonText": "Baixe aqui"
+        "buttonText": "Baixar"
     },
     {
         "id": 3,
@@ -25,5 +25,14 @@
         "image": "/imgs/projects/youtube-thumb-domingoGranGeek.jpg",
         "link": "https://youtu.be/JKwtMxCfDhw?si=M1c04ARrRKLL_p9T",
         "buttonText": "Assistir"
+    },
+    {
+        "id": 4,
+        "status": "DONE",
+        "title": "Mentoria de Carreira e Empregabilidade",
+        "image": "imgs/projects/call-empregabilidade.jpg",
+        "description": "Encontro com a Larissa Brito, especialista em carreira e empregabilidade da Gran Faculdade. A reunião foi uma atividade do NCB, conduzida por Rebecca Mello e por Jhônata Tavares, com uma análise personalizada trazendo insights valiosos para quem deseja aprimorar seu perfil profissional.",
+        "link": "https://www.linkedin.com/posts/rebeccabmello_carreira-empregabilidade-linkedin-activity-7313729424632270848-jQnN/",
+        "buttonText": "Acessar"
     }
 ]

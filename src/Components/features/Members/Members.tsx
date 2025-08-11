@@ -36,23 +36,38 @@ type TagKey =
   | "datascience"
   | "designer";
 const tags: Record<TagKey, React.ReactNode> = {
-  cybersec: <FaShieldAlt title="Segurança da informação" />,
+  cybersec: <FaShieldAlt title="Segurança da Informação" />,
   redes: <FaNetworkWired title="Redes" />,
   cloud: <FaCloud title="Cloud" />,
   database: <FaDatabase title="Banco de dados" />,
-  dev: <FaCode title="Desenvolvedor(a)" />,
-  ia: <FaRobot title="Inteligência artificial" />,
+  dev: <FaCode title="Desenvolvimento" />,
+  ia: <FaRobot title="Inteligência Artificial" />,
   devops: <FaCogs title="DevOps" />,
-  analytics: <FaChartBar title="Análise de dados" />,
+  analytics: <FaChartBar title="Análise de Dados" />,
   datascience: <FaChartLine title="Ciência de Dados" />,
   designer: <FaPalette title="Design" />,
 };
 
 const courses: Record<string, string> = {
-  si: "Segurança da informação",
-  ads: "Análise e desenvolvimento de sistemas",
-  SI: "sistemas de informação",
-  cc: "Ciências da computação",
+  si: "Segurança da Informação",
+  ads: "Análise e Desenvolvimento de Sistemas",
+  SI: "Sistemas de Informação",
+  cc: "Ciência da Computação",
+  gti: "Gestão de Tecnologia da Informação",
+};
+
+const states: Record<string, string> = {
+  sp: "São Paulo",
+  rj: "Rio de Janeiro",
+  mg: "Minas Gerais",
+  pr: "Paraná",
+  go: "Goiás",
+  pe: "Pernambuco",
+  ce: "Ceará",
+  ba: "Bahia",
+  df: "Distrito Federal",
+  to: "Tocantins",
+  pi: "Piauí",
 };
 
 export function Members() {
@@ -97,16 +112,11 @@ export function Members() {
 
                 <h3
                   className={`font-bold text-lg text-center ${
-                    member.adm ? "text-yellow-400" : ""
+                    member.adm ? "text-[var(--color-members-admin-self)]" : ""
                   }`}
                 >
                   {member.name}
                 </h3>
-                <div className="flex justify-center">
-                  <span className="text-xs">
-                    {courses[member.course || ""]}
-                  </span>
-                </div>
 
                 <div className="flex flex-wrap gap-2 items-center justify-center">
                   {member.tags?.map((tag, index) => (
@@ -120,13 +130,14 @@ export function Members() {
                   ))}
                 </div>
 
-                <p className="text-center text-sm mt-1 px-2">
-                  {member.description}
+                <p className="text-center text-sm mt-1 px-2 pt-2">
+                  {courses[member.course || ""]} <br />
+                  {states[member.state || ""]}
                 </p>
 
                 <ul className="mt-3 flex items-center justify-center gap-3">
                   {member.github && (
-                    <li className="hover:scale-110 transition-transform">
+                    <li className="hover:scale-110 transition-transform ">
                       <a
                         href={member.github}
                         target="_blank"
