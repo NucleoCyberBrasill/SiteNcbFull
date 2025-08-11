@@ -20,7 +20,7 @@ export function ProjectCard({
   status,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col md:flex-row gap-4 items-center md:items-start p-4 w-full ">
+    <div className="flex flex-col md:flex-row gap-4 items-center md:items-start  p-4 w-full ">
       <img
         src={image}
         alt={`Imagem referente ao projeto ${title}`}
@@ -35,7 +35,7 @@ export function ProjectCard({
       />
       <div className="md:text-start text-center flex flex-col justify-between">
         <div>
-          <h2 className="text-2xl font-bold mb-2 text-[rgb(var(--color-primary-self))]">
+          <h2 className="text-2xl font-bold mb-2  text-[rgb(var(--color-primary-self))]">
             {title}
           </h2>
           {status == "DONE" && (
@@ -49,7 +49,10 @@ export function ProjectCard({
             </span>
           )}
           {description.split("\n").map((line, index) => (
-            <p key={index} className="text-[rgb(var(--color-text-self))]">
+            <p
+              key={index}
+              className="text-[rgb(var(--color-text-self))] pr-40 pt-2 text-justify"
+            >
               {line}
             </p>
           ))}

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
-    <footer className="bg-[var(--footer-color-self)] p-4  ">
+    <footer className="bg-[var(--footer-color-self)] p-4 text-[var(--footer-color-text-self)] ">
       <div className="flex flex-col md:flex-row md:justify-between items-center">
         <div>
           <img

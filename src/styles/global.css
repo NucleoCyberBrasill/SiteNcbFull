@@ -141,11 +141,11 @@ body {
 @layer components {
   .state {
     cursor: default;
-    fill: #5d22d3;
+    fill: #2c009e;
   }
 
   .state:hover {
-    fill: #2c009e;
+    fill: #5d22d3;
     transition: 0.1s linear ease-in-out;
   }
 
@@ -158,8 +158,9 @@ body {
   #PR.state,
   #TO.state,
   #PI.state,
-  #DF.state {
-    fill: #2c009e;
+  #DF.state,
+  #GO.state {
+    fill: #5d22d3;
     cursor: default;
   }
 }

@@ -1,53 +1,46 @@
+/* dark mode */
 :root {
-  --color-bg-self: #1e1b2e;
-  --color-text-self: #f4efff;
+  /* background*/
+  --color-bg-self: #010123;
 
-  --color-primary-self: #c084fc; /* Roxo claro vibrante */
-  --color-primary-hover-self: #a855f7;
-  --color-primary-focus-self: #9333ea;
+  /* fonts*/
+  --color-text-self: #f4f4f4;
+  --color-title-self: #f6c613;
 
-  --color-secondary-self: #7c3aed; /* Roxo forte */
-  --color-secondary-hover-self: #6b21a8;
-  --color-secondary-focus-self: #581c87;
+  /* card borders*/
+  --color-primary-self: #4b38e0;
 
-  --color-accent-self: #a78bfa;
+  /* buttons, bagdes, social media */
+  --color-secondary-self: #5d17eb;
+  --color-secondary-hover-self: #5a017a;
+
+  /* members border */
   --color-accent-hover-self: #c4b5fd;
+  --color-members-admin-self: #f6c613;
 
-  --color-border-self: #e4d8fa;
-  --color-border-hover-self: #4c3d85;
-
-  --color-muted-self: #777;
-  --footer-color-self: #1c1c1c;
-  --gray-50-self: #f4efff;
-  --gray-100-self: #e0d7f2;
-  --gray-200-self: #b8aee0;
-  --gray-300-self: #8c7ac0;
-  --gray-400-self: #6c5a99;
-  --gray-500-self: #54427a;
-  --gray-600-self: #3f315b;
-  --gray-700-self: #2f2545;
-  --gray-800-self: #221a33;
-  --gray-900-self: #161025;
+  --footer-color-self: #1c085f;
 }
 
+/* light mode */
 :root[data-theme="light"] {
-  --color-bg-self: #f5f0fa;
-  --color-text-self: #1e0a35;
+  /* background */
+  --color-bg-self: #f4f4f4;
 
-  --color-primary-self: #7c3aed; /* Roxo vivo */
-  --color-primary-hover-self: #6b21a8;
-  --color-primary-focus-self: #581c87;
+  /* fonts */
+  --color-text-self: #333;
+  --color-title-self: #5d16eb;
 
-  --color-secondary-self: #a78bfa; /* Roxo suave */
-  --color-secondary-hover-self: #c084fc;
-  --color-secondary-focus-self: #a855f7;
+  /* card borders */
+  --color-primary-self: #a695ff;
 
-  --color-accent-self: #c084fc; /* Roxo claro com um pouco de rosa */
-  --color-accent-hover-self: #d8b4fe;
+  /* buttons, bagdes, social media */
+  --color-secondary-self: #a754fa;
+  --color-secondary-hover-self: #5d16eb;
 
-  --color-border-self: #e4d8fa;
-  --color-border-hover-self: #cdb4f0;
+  /* members border */
+  --color-accent-hover-self: #c084fc;
+  --color-members-admin-self: #5d16eb;
 
-  --color-muted-self: #a3a3a3;
-  --footer-color-self: #f2f2f2;
+  --footer-color-self: #210d42;
+  --footer-color-text-self: #f4f4f4;
 }
