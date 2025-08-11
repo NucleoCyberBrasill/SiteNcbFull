@@ -57,11 +57,17 @@ export function Menu() {
 
   // header section
   return (
-    <nav className={`pt-5 px-5 `}>
+    <nav className={` px-5 `}>
       <div className="flex justify-between ">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <span className="text-3xl font-bold">NCB</span>
+          <a href="/" rel="noreferrer">
+            <img
+              className="w-35 h-20"
+              src="https://nucleocyberbrasil.my.canva.site/_assets/media/475ff7b3a0e26da738094f39fb84e693.png"
+              alt="logo nucleocyberbrasil"
+            />
+          </a>
         </div>
 
         <div className="flex items-center space-x-3">
