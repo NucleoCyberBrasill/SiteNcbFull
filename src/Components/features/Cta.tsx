@@ -101,10 +101,7 @@ const Cta = () => {
               Os temas variam de introdução à cibersegurança até assuntos mais
               avançados, acompanhando o ritmo e o interesse dos membros.
             </li>
-            <li className="list-disc">
-              No momento, estamos focando em conteúdos introdutórios, perfeitos
-              para quem está começando.
-            </li>
+            
           </ul>
         </div>
 
