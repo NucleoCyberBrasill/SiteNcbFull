@@ -8,7 +8,7 @@
     "github": "https://github.com/JSchrann",
     "linkedin":"https://www.linkedin.com/in/schrannjulia/",
     "discord": "https://discord.com/users/620413649147789338",
-    "tags": ["cybersec","redes","cloud"],
+    "tags": ["cybersec"],
     "course": "si"
   },
   {
@@ -21,7 +21,7 @@
     "linkedin": "https://www.linkedin.com/in/jhonata-tavares/",
     "discord": "https://discord.com/users/357941121160314880",
     "course":"cc",
-    "tags": ["dev"]
+    "tags": ["dev", "devops", "database"]
   },
   
   {
@@ -41,7 +41,7 @@
     "github": "https://github.com/Vinny7x",
     "linkedin":"https://linkedin.com/in/vinicios-mendes",
     "discord": "https://discord.com/users/864842051882450974",
-    "tags":["dev", "database","cloud","devops"],
+    "tags":["dev", "database"],
     "course":"SI"
   },
   {
@@ -71,7 +71,7 @@
     "github":"https://github.com/mimi-utmost",
     "linkedin":"https://www.linkedin.com/in/willian-miranda-rodrigues/",
     "course":"cc",
-    "tags": ["dev", "cybersec"]
+    "tags": ["dev"]
   },{
     "id":8,
     "name":"Jade Freire",
@@ -80,7 +80,7 @@
     "github":"https://github.com/JadeFreire21",
     "linkedin":"www.linkedin.com/in/jade-freire-coelho-marins-b077a9142",
     "course":"si",
-    "tags": ["dev", "cybersec"]
+    "tags": ["cybersec"]
   },
   {
     "id":9,
@@ -90,7 +90,7 @@
     "linkedin":"https://linkedin.com/in/otávio-alves",
     "github": "https://github.com/DevOtavioAlves",
     "course":"si",
-    "tags": ["cybersec"]
+    "tags": ["cybersec", "devops"]
   },
   {
     "id":10,
@@ -104,15 +104,6 @@
   },
   {
     "id":11,
-    "name": "Alexsandra Corrêa",
-    "image": "/imgs/members/alexsandra_correa.jpeg",
-    "state":"sp",
-    "linkedin":"https://www.linkedin.com/in/alexsandra-correa-16b612319",
-    "github":"https://github.com/alexxa-correa",
-    "course":"gti"
-  },
-  {
-    "id":12,
     "name":"Paulo Cesar",
     "image":"/imgs/members/paulo_cesar.jpeg",
     "github":"https://github.com/Paulo3131",
