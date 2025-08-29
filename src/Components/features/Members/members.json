@@ -6,7 +6,7 @@
     "image": "/imgs/members/julia_schrann.jpeg",
     "state": "pr",
     "github": "https://github.com/JSchrann",
-    "linkedin":"https://www.linkedin.com/in/schrannjulia/",
+    "linkedin": "https://www.linkedin.com/in/schrannjulia/",
     "discord": "https://discord.com/users/620413649147789338",
     "tags": ["cybersec"],
     "course": "si"
@@ -20,96 +20,98 @@
     "github": "https://github.com/Jhonatayu",
     "linkedin": "https://www.linkedin.com/in/jhonata-tavares/",
     "discord": "https://discord.com/users/357941121160314880",
-    "course":"cc",
+    "course": "cc",
     "tags": ["dev", "devops", "database"]
   },
-  
+
   {
     "id": 3,
     "name": "Rebecca Mello",
     "image": "/imgs/members/rebecca_mello.jpeg",
-    "state":"rj", 
+    "state": "rj",
     "github": "https://github.com/Rbkmello",
     "linkedin": "https://www.linkedin.com/in/rebeccabmello",
     "course": "cc",
     "tags": ["cybersec", "dev", "designer"]
-  },{
+  },
+  {
     "id": 4,
     "name": "Vinícios Mendes",
     "image": "/imgs/members/vinicios_mendes.jpeg",
     "state": "ba",
     "github": "https://github.com/Vinny7x",
-    "linkedin":"https://linkedin.com/in/vinicios-mendes",
+    "linkedin": "https://linkedin.com/in/vinicios-mendes",
     "discord": "https://discord.com/users/864842051882450974",
-    "tags":["dev", "database"],
-    "course":"SI"
+    "tags": ["dev", "database"],
+    "course": "SI"
   },
   {
-    "id":5,
-    "name":"Ana",
-    "image":"/imgs/members/ana.jpg",
-   "state":"ce", 
-    "github":"https://github.com/iambel",
-    "linkedin":"https://www.linkedin.com/in/iambel/",
-    "tags":["dev","datascience","designer"],
-    "course":"cc"
+    "id": 5,
+    "name": "Ana",
+    "image": "/imgs/members/ana.jpg",
+    "state": "ce",
+    "github": "https://github.com/iambel",
+    "linkedin": "https://www.linkedin.com/in/iambel/",
+    "tags": ["dev", "datascience", "designer"],
+    "course": "cc"
   },
   {
-    "id":6,
-    "name":"Vitor Leão",
-    "image":"/imgs/members/vitor_leao.png",
-    "state":"mg", 
-    "github":"https://github.com/baddjoke",
-    "linkedin":"https://www.linkedin.com/in/v%C3%ADtor-le%C3%A3o-a19638356/",
-    "course":"ads",
-    "tags":["dev"]
-  },{
-    "id":7,
-    "name":"Willian",
-    "image":"/imgs/members/willian_miranda.jpeg",
-    "state":"to", 
-    "github":"https://github.com/mimi-utmost",
-    "linkedin":"https://www.linkedin.com/in/willian-miranda-rodrigues/",
-    "course":"cc",
+    "id": 6,
+    "name": "Vitor Leão",
+    "image": "/imgs/members/vitor_leao.png",
+    "state": "mg",
+    "github": "https://github.com/baddjoke",
+    "linkedin": "https://www.linkedin.com/in/v%C3%ADtor-le%C3%A3o-a19638356/",
+    "course": "ads",
     "tags": ["dev"]
-  },{
-    "id":8,
-    "name":"Jade Freire",
-    "image":"/imgs/members/jade_freire.jpeg",
-    "state":"rj", 
-    "github":"https://github.com/JadeFreire21",
-    "linkedin":"www.linkedin.com/in/jade-freire-coelho-marins-b077a9142",
-    "course":"si",
+  },
+  {
+    "id": 7,
+    "name": "Willian",
+    "image": "/imgs/members/willian_miranda.jpeg",
+    "state": "to",
+    "github": "https://github.com/mimi-utmost",
+    "linkedin": "https://www.linkedin.com/in/willian-miranda-rodrigues/",
+    "course": "cc",
+    "tags": ["dev"]
+  },
+  {
+    "id": 8,
+    "name": "Jade Freire",
+    "image": "/imgs/members/jade_freire.jpeg",
+    "state": "rj",
+    "github": "https://github.com/JadeFreire21",
+    "linkedin": "www.linkedin.com/in/jade-freire-coelho-marins-b077a9142",
+    "course": "si",
     "tags": ["cybersec"]
   },
   {
-    "id":9,
-    "name":"Otávio Alves",
-    "image":"/imgs/members/otavio_alves.jpeg",
-    "state":"rj",
-    "linkedin":"https://linkedin.com/in/otávio-alves",
+    "id": 9,
+    "name": "Otávio Alves",
+    "image": "/imgs/members/otavio_alves.jpeg",
+    "state": "rj",
+    "linkedin": "https://linkedin.com/in/otávio-alves",
     "github": "https://github.com/DevOtavioAlves",
-    "course":"si",
+    "course": "si",
     "tags": ["cybersec", "devops"]
   },
   {
-    "id":10,
-    "name":"Wanderlei",
-    "image":"/imgs/members/wanderlei.jpeg",
+    "id": 10,
+    "name": "Wanderlei",
+    "image": "/imgs/members/wanderlei.jpeg",
     "state": "df",
-    "linkedin":"https://www.linkedin.com/in/wanderlei-thech",
-    "github":"https://github.com/wanderleiads",
-    "course":"ads",
+    "linkedin": "https://www.linkedin.com/in/wanderlei-thech",
+    "github": "https://github.com/wanderleiads",
+    "course": "ads",
     "tags": ["dev", "designer"]
   },
   {
-    "id":11,
-    "name":"Paulo Cesar",
-    "image":"/imgs/members/paulo_cesar.jpeg",
-    "github":"https://github.com/Paulo3131",
-    "state":"go",
-    "linkedin":"https://www.linkedin.com/in/paulo-cesar-da-silva-oliveira-686883284/",
-    "course":"gti"
-
-}
+    "id": 11,
+    "name": "Paulo Cesar",
+    "image": "/imgs/members/paulo_cesar.jpeg",
+    "github": "https://github.com/Paulo3131",
+    "state": "go",
+    "linkedin": "https://www.linkedin.com/in/paulo-cesar-da-silva-oliveira-686883284/",
+    "course": "gti"
+  }
 ]
