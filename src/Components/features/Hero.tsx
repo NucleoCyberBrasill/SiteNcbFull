@@ -18,18 +18,19 @@ export function Hero() {
         animateOn="view"
         sequential
       />
-      <TextType
-        className="text-2xl max-w-2xl text-gray-600"
-        typingSpeed={10}
-        pauseDuration={1500}
-        showCursor={true}
-        cursorCharacter="_"
-        loop={true}
-        text={[
-          "Somos o NCB — Núcleo Cyber Brasil, ficamos muito felizes com o seu interesse =)",
-          "Somos um grupo de estudos, exclusivo para alunos da Gran Faculdade, composto por alunos de diversos cursos e com foco na área de Segurança da Informação.",
-        ]}
-      />
+     <TextType
+  className="text-2xl max-w-2xl"
+  typingSpeed={10}
+  pauseDuration={1500}
+  showCursor={true}
+  cursorCharacter="_"
+  loop={true}
+  text={[
+    "Somos o NCB — Núcleo Cyber Brasil, ficamos muito felizes com o seu interesse =)",
+    "Somos um grupo de estudos, exclusivo para alunos da Gran Faculdade, composto por alunos de diversos cursos e com foco na área de Segurança da Informação.",
+  ]}
+  textColors={["var(--color-text-self)"]}
+/>
     </section>
   );
 }
