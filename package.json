@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
+    "animated-backgrounds": "^2.0.0",
     "aos": "^3.0.0-beta.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -23,7 +24,9 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.7.1",
     "swiper": "^11.2.8",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "three": "^0.180.0",
+    "vanta": "^0.5.24"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
@@ -31,6 +34,7 @@
     "@types/node": "^24.0.12",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "@types/three": "^0.180.0",
     "@vitejs/plugin-react": "^4.5.2",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",

@@ -1,9 +1,16 @@
 import { MainTemplate } from "@/Components/layouts/MainTemplate";
+import { AnimatedBackground } from "animated-backgrounds";
 
 export function About() {
   return (
     <MainTemplate>
       <div className="min-h-screen flex flex-col justify-center items-center gap-3 mb-10">
+        <AnimatedBackground
+          animationName="neuralNetwork"
+          theme="gaming"
+          interactive={true}
+          transparent={true}
+        />
         <h1 className="text-3xl text-center">
           Sobre o NCB – Núcleo Cyber Brasil
         </h1>
