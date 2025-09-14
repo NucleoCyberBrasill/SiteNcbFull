@@ -51,7 +51,7 @@ export function ProjectCard({
           {description.split("\n").map((line, index) => (
             <p
               key={index}
-              className="text-[rgb(var(--color-text-self))] pr-40 pt-2 text-justify"
+              className="text-[rgb(var(--color-text-self))] pt-2 text-justify"
             >
               {line}
             </p>
