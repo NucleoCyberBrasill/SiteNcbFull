@@ -14,7 +14,7 @@ export function Hero() {
         characters="01"
         className="text-7xl font-bold mb-4 text-[var(--color-primary-self)]"
         parentClassName="all-letters"
-        encryptedClassName="text-5xl font-bold mb-4 text-green-700"
+        encryptedClassName="text-5xl font-bold mb-4 text-green-500"
         animateOn="view"
         sequential
       />
