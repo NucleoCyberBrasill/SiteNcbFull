@@ -1,17 +1,16 @@
 import { MainTemplate } from "../Components/layouts/MainTemplate";
 import { Container } from "../Components/layouts/Container/Container";
-import { WelcomeCard } from "../Components/features/WelcomeCard";
+import { Hero } from "../Components/features/Hero";
 import { Members } from "../Components/features/Members/Members";
 import { Projects } from "../Components/features/Projects/Projects";
 import Cta from "../Components/features/Cta";
 import { Reviews } from "../Components/features/Reviews/Reviews";
 import MembersMap from "../Components/features/MembersMap/MembersMap";
-
 export function Home() {
   return (
     <MainTemplate>
-      <Container>
-        <WelcomeCard />
+      <Container>     
+        <Hero />
         <Projects />
         <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>
         <h2 className="text-xl text-center">
