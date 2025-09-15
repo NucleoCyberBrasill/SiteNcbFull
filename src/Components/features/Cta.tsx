@@ -1,6 +1,6 @@
-// CTA section, convite/explicação de como participar
 import { useEffect } from "react";
 import AOS from "aos";
+
 const Cta = () => {
   useEffect(() => {
     AOS.init({ once: false });

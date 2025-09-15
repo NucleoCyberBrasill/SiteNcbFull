@@ -1,7 +1,5 @@
 import Map from "./Map";
 
-// seção do mapa dos membros
-
 const MembersMap = () => {
   return (
     <section

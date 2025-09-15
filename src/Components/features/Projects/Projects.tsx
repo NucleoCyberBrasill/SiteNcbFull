@@ -1,20 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/pagination";
-import "swiper/css";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
 import { Title } from "../../ui/Title";
+import "swiper/css/pagination";
+import "swiper/css";
 
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * @function Projects
- * @description Renderiza a se o de projetos e atividades do grupo.
- * @returns {JSX.Element} O componente JSX da se o de projetos e atividades.
- * @example
- * <Projects />
- */
-/*******  1241473f-cb32-438e-b172-e819d9908afa  *******/ export function Projects() {
+export function Projects() {
   return (
     <>
       {/* projects section */}
