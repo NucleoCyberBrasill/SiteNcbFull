@@ -152,5 +152,3 @@ export function Cta() {
     </div>
   );
 }
-
-export default Cta;
