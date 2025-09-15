@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";

@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  AOS.init({ once: true }); // ou conforme necessidade
+  AOS.init({ once: true });
 
   return (
     <BrowserRouter>

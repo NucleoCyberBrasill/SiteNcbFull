@@ -1,4 +1,6 @@
 // header-menu
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import {
   HomeIcon,
   InfoIcon,
@@ -8,13 +10,10 @@ import {
   XIcon,
   FolderIcon,
 } from "lucide-react";
-import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
-type themes = "dark" | "light";
 
 // switch theme logic
-
+type themes = "dark" | "light";
 export function Menu() {
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");

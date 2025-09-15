@@ -101,7 +101,6 @@ const Cta = () => {
               Os temas variam de introdução à cibersegurança até assuntos mais
               avançados, acompanhando o ritmo e o interesse dos membros.
             </li>
-            
           </ul>
         </div>
 

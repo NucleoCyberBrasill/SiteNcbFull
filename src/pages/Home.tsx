@@ -9,7 +9,7 @@ import MembersMap from "../Components/features/MembersMap/MembersMap";
 export function Home() {
   return (
     <MainTemplate>
-      <Container>     
+      <Container>
         <Hero />
         <Projects />
         <h1 className="text-3xl text-center mt-2">Integrantes do NCB</h1>

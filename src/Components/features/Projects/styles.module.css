@@ -1,6 +1,6 @@
 .swiper {
-min-height: 20rem;
-height: 40rem;
+  min-height: 20rem;
+  height: 40rem;
 }
 
 .swiper-slide {
@@ -12,4 +12,3 @@ height: 40rem;
   justify-content: center;
   align-items: center;
 }
-

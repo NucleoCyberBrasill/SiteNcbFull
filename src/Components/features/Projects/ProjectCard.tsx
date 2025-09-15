@@ -1,4 +1,3 @@
-// ProjectCard.tsx
 import { CheckCheckIcon, ClockIcon } from "lucide-react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
