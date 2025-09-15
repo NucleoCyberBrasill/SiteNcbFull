@@ -17,7 +17,7 @@ export function Home() {
           Nosso grupo é composto por alunos de diversos cursos, idades e estados
           do Brasil.
         </h2>
-        <div className="flex flex-col md:flex-row justify-center gap-2">
+        <div className="flex flex-col md:flex-row justify-center gap-2 overflow-auto">
           <MembersMap />
           <Members />
         </div>
