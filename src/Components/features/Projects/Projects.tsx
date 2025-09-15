@@ -1,40 +1,39 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Mousewheel, Pagination } from "swiper/modules";
 import { ProjectCard } from "./ProjectCard";
 import projects from "./projects.json";
 import { Title } from "../../ui/Title";
-import "swiper/css/pagination";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  //CarouselNext,
+  //CarouselPrevious,
+} from "@/Components/ui/Carousel";
+
 import "swiper/css";
+import "swiper/css/pagination";
 
 export function Projects() {
   return (
-    <>
-      {/* projects section */}
-      <section className="h-auto mb-30" data-aos="fade-up">
-        <Title
-          center={true}
-          subtitle="Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!"
-        >
-          Conheça nossos projetos e atividades
-        </Title>
+    <section className="h-auto mb-20" data-aos="fade-up">
+      <Title
+        center
+        subtitle="Nosso grupo esteve envolvido em alguns projetos e atividades bem especiais!"
+      >
+        Conheça nossos projetos e atividades
+      </Title>
 
-        <Swiper
-          pagination={{ clickable: true }}
-          modules={[Pagination, Mousewheel]}
-          spaceBetween={20}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            1100: { slidesPerView: 2 },
-          }}
-          className="max-w-[95%] mx-auto border-[var(--color-primary-self)] border-3 rounded mt-8"
-        >
+      <Carousel className="w-full max-w-[95%] mx-auto flex flex-col px-2">
+        <CarouselContent className="gap-4 sm:gap-6 ">
           {projects
             .slice()
             .reverse()
             .map((project, index) => (
-              <SwiperSlide
+              <CarouselItem
                 key={index}
-                className="flex justify-center items-center p-4"
+                className="
+                  flex justify-center
+          basis-full sm:basis-1/2 lg:basis-1/3
+                "
               >
                 <ProjectCard
                   title={project.title}
@@ -44,10 +43,24 @@ export function Projects() {
                   buttonText={project.buttonText}
                   status={project.status}
                 />
-              </SwiperSlide>
+              </CarouselItem>
             ))}
-        </Swiper>
-      </section>
-    </>
+        </CarouselContent>
+        {/* ! não consegui fazer as setas ficarem abaixo */} 
+        {/*
+      <div className="flex justify-center items-center gap-4 mt-2">
+    <CarouselPrevious className="
+      rounded-full border border-[var(--color-primary-self)]
+      p-2 hover:bg-[var(--color-primary-self)] hover:text-white
+      transition
+    " />
+    <CarouselNext className="
+      rounded-full border border-[var(--color-primary-self)]
+      p-2 hover:bg-[var(--color-primary-self)] hover:text-white
+      transition
+    " />
+  </div> */}
+      </Carousel>
+    </section>
   );
 }
