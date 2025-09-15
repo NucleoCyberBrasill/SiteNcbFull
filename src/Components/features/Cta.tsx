@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
-const Cta = () => {
+export function Cta() {
   useEffect(() => {
     AOS.init({ once: false });
   }, []);
@@ -151,6 +151,6 @@ const Cta = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Cta;
