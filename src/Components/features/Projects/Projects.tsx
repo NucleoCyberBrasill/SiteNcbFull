@@ -22,7 +22,7 @@ export function Projects() {
         Conheça nossos projetos e atividades
       </Title>
 
-      <Carousel className="w-full max-w-[95%] mx-auto flex flex-col px-2">
+      <Carousel className="w-full max-w-[95%] mx-auto flex flex-col px-2 overflow-x-hidden">
         <CarouselContent className="gap-4 sm:gap-6 ">
           {projects
             .slice()

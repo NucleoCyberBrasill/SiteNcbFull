@@ -77,7 +77,7 @@ export function ProjectCard({
             bg-[var(--color-secondary-self)]
             hover:bg-[var(--color-secondary-hover-self)]
             rounded text-white mx-auto md:mx-0
-            transition-colors duration-200
+            transition-colors duration-200 w-full
           "
         >
           {buttonText} <FaExternalLinkAlt />
