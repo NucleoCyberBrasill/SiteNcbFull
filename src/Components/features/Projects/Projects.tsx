@@ -9,8 +9,6 @@ import {
   //CarouselPrevious,
 } from "@/Components/ui/Carousel";
 
-import "swiper/css";
-import "swiper/css/pagination";
 
 export function Projects() {
   return (
