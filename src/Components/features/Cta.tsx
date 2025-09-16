@@ -7,7 +7,7 @@ export function Cta() {
   }, []);
   return (
     <div
-      className="h-screen justify-center items-center flex flex-col mb-160 mt-180 md:mb-0 md:mt-0"
+      className="justify-center items-center flex flex-col mb-160 mt-180 md:mb-0 md:mt-0"
       data-aos="fade-up"
     >
       <div>
