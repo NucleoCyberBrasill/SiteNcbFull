@@ -14,23 +14,23 @@ export function Hero() {
         characters="01"
         className="text-7xl font-bold mb-4 text-[var(--color-primary-self)]"
         parentClassName="all-letters"
-        encryptedClassName="text-5xl font-bold mb-4 text-green-500"
+        encryptedClassName="text-5xl font-bold mb-4 text-[var(--color-secondary-self)]"
         animateOn="view"
         sequential
       />
-     <TextType
-  className="text-2xl max-w-2xl"
-  typingSpeed={10}
-  pauseDuration={1500}
-  showCursor={true}
-  cursorCharacter="_"
-  loop={true}
-  text={[
-    "Somos o NCB — Núcleo Cyber Brasil, ficamos muito felizes com o seu interesse =)",
-    "Somos um grupo de estudos, exclusivo para alunos da Gran Faculdade, composto por alunos de diversos cursos e com foco na área de Segurança da Informação.",
-  ]}
-  textColors={["var(--color-text-self)"]}
-/>
+      <TextType
+        className="text-2xl max-w-2xl "
+        typingSpeed={20}
+        pauseDuration={1500}
+        showCursor={true}
+        cursorCharacter="_"
+        loop={true}
+        text={[
+          "Somos o NCB — Núcleo Cyber Brasil, ficamos muito felizes com o seu interesse =)",
+          "Somos um grupo de estudos, exclusivo para alunos da Gran Faculdade, composto por alunos de diversos cursos e com foco na área de Segurança da Informação.",
+        ]}
+        textColors={["var(--color-text-self)"]}
+      />
     </section>
   );
 }
