@@ -4,16 +4,12 @@ import { useEffect, useState } from "react";
 import {
   HomeIcon,
   InfoIcon,
-  MoonIcon,
-  SunIcon,
   MenuIcon,
   XIcon,
   FolderIcon,
 } from "lucide-react";
 import "aos/dist/aos.css";
 
-// switch theme logic
-type themes = "dark" | "light";
 export function Menu() {
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 768px)");
@@ -30,29 +26,7 @@ export function Menu() {
       mediaQuery.removeEventListener("change", handleResize);
     };
   }, []);
-  const [theme, setTheme] = useState<themes>(() => {
-    const storageTheme = (localStorage.getItem("theme") as themes) || "dark";
-    return storageTheme;
-  });
-
   const [isOpen, setIsOpen] = useState(false);
-
-  const nextThemeIcon = {
-    dark: <SunIcon className="w-8 h-8" />,
-    light: <MoonIcon className="w-8 h-8" />,
-  };
-
-  function handleThemeChange(
-    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
-  ) {
-    event.preventDefault();
-    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
-  }
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-  }, [theme]);
 
   // header section
   return (
@@ -70,14 +44,6 @@ export function Menu() {
         </div>
 
         <div className="flex items-center space-x-3">
-          {/* Ícone de tema - mobile apenas */}
-          <a
-            onClick={handleThemeChange}
-            className="cursor-pointer inline-flex md:hidden"
-          >
-            {nextThemeIcon[theme]}
-          </a>
-
           {/* Botão hamburger (mobile only) */}
           <button
             className="md:hidden p-2"
@@ -116,15 +82,7 @@ export function Menu() {
               <FolderIcon className="w-6 h-6" /> Blog
             </Link>
           </li>
-          <li>
-            {/* Ícone de tema - desktop apenas */}
-            <a
-              onClick={handleThemeChange}
-              className="cursor-pointer hidden md:inline-flex"
-            >
-              {nextThemeIcon[theme]}
-            </a>
-          </li>
+          <li></li>
         </ul>
       </div>
 
