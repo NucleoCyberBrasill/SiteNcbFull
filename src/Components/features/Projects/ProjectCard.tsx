@@ -24,7 +24,7 @@ export function ProjectCard({
       p-4 rounded-lg border border-[var(--color-primary-self)] 
       bg-[var(--color-bg-self)] text-[var(--color-text-self)]
       hover:border-[var(--color-accent-hover-self)] hover:scale-[1.02] 
-      transition-transform duration-300 ease-in-out
+      transition-transform duration-300 ease-in-out select-none cursor-grab
     ">
       <img
         src={image}

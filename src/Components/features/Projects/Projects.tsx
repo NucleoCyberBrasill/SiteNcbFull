@@ -9,7 +9,6 @@ import {
   //CarouselPrevious,
 } from "@/Components/ui/Carousel";
 
-
 export function Projects() {
   return (
     <section className="h-auto mb-20" data-aos="fade-up">
@@ -44,7 +43,7 @@ export function Projects() {
               </CarouselItem>
             ))}
         </CarouselContent>
-        {/* ! não consegui fazer as setas ficarem abaixo */} 
+        {/* ! não consegui fazer as setas ficarem abaixo */}
         {/*
       <div className="flex justify-center items-center gap-4 mt-2">
     <CarouselPrevious className="
