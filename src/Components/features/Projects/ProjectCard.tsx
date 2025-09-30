@@ -1,3 +1,4 @@
+import { DefaultButton } from "@/Components/ui/DefaultButton";
 import { CheckCheckIcon, ClockIcon } from "lucide-react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -38,50 +39,36 @@ export function ProjectCard({
         loading="lazy"
       />
       <div className="md:text-start text-center flex flex-col justify-between w-full">
-  {/* linha de título + badge */}
-  <div className="flex items-center gap-2 mb-2">
-   
+        {/* linha de título + badge */}
+        <div className="flex items-center gap-2 mb-2">
 
-    {status === "DONE" && (
-      <span className="inline-flex items-center gap-1 bg-green-600 p-1 px-2 text-sm text-white rounded">
-        <CheckCheckIcon size={16} /> Disponível
-      </span>
-    )}
 
-    {status === "IN_PROGRESS" && (
-      <span className="inline-flex items-center gap-1 bg-gray-500 p-1 px-2 text-sm text-white rounded">
-        <ClockIcon size={16} /> Em progresso
-      </span>
-    )}
-     <h2 className="text-2xl font-bold text-[rgb(var(--color-primary-self))]">
-      {title}
-    </h2>
-  </div>
+          {status === "DONE" && (
+            <span className="inline-flex items-center gap-1 bg-green-600 p-1 px-2 text-sm text-white rounded">
+              <CheckCheckIcon size={16} /> Disponível
+            </span>
+          )}
 
-  {/* descrição */}
-  {description.split("\n").map((line, index) => (
-    <p
-      key={index}
-      className="text-[rgb(var(--color-text-self))] pt-2 text-justify"
-    >
-      {line}
-    </p>
-  ))}
+          {status === "IN_PROGRESS" && (
+            <span className="inline-flex items-center gap-1 bg-gray-500 p-1 px-2 text-sm text-white rounded">
+              <ClockIcon size={16} /> Em progresso
+            </span>
+          )}
+          <h2 className="text-2xl font-bold text-[rgb(var(--color-primary-self))]">
+            {title}
+          </h2>
+        </div>
 
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="
-            p-2 mt-4 inline-flex items-center justify-center gap-2
-            bg-[var(--color-secondary-self)]
-            hover:bg-[var(--color-secondary-hover-self)]
-            rounded text-white mx-auto md:mx-0
-            transition-colors duration-200 w-full
-          "
-        >
-          {buttonText} <FaExternalLinkAlt />
-        </a>
+        {/* descrição */}
+        {description.split("\n").map((line, index) => (
+          <p
+            key={index}
+            className="text-[rgb(var(--color-text-self))] pt-2 text-justify"
+          >
+            {line}
+          </p>
+        ))}
+<DefaultButton link={link} fill wfull icon={<FaExternalLinkAlt/>}>{buttonText}</DefaultButton>
       </div>
     </div>
   );
