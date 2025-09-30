@@ -2,6 +2,7 @@ import { Link2Icon } from "lucide-react";
 import type { post } from "../../../types/post";
 import { formatDate } from "@/utils/formatDate";
 import { relativeDate } from "@/utils/relativeDate";
+import { DefaultButton } from "@/Components/ui/DefaultButton";
 
 export function BlogCard({ title, description, slug, banner, postedAt }: post) {
   return (
@@ -12,12 +13,7 @@ export function BlogCard({ title, description, slug, banner, postedAt }: post) {
       <p className="break-words text-sm text-gray-300 line-clamp-3 mt-1">
         {description}
       </p>
-      <a
-        href={slug}
-        className="flex gap-2 items-center mt-3 text-blue-400 hover:text-blue-300 transition-colors"
-      >
-        Ler post <Link2Icon className="w-4 h-4" />
-      </a>
+      <DefaultButton fill wfull={true} border icon={<Link2Icon/>} link={slug}>Ler post</DefaultButton>
     </div>
   );
 }
