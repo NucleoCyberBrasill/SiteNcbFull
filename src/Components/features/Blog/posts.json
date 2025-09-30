@@ -1,20 +1,23 @@
 [
-    {
-        "title": "NCB",
-        "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
-        "banner": "https://placehold.co/600x300",
-        "slug": "/postlegal"
-    },
-      {
-        "title": "NCB",
-        "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
-        "banner": "https://placehold.co/600x300",
-        "slug": "/postlegal"
-    },
-      {
-        "title": "NCB",
-        "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
-        "banner": "https://placehold.co/600x300",
-        "slug": "/postlegal"
-    }
+  {
+    "title": "NCB",
+    "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
+    "banner": "https://placehold.co/600x300",
+    "slug": "/postlegal",
+    "postedAt": "2024-09-30T12:00:00.000Z"
+  },
+  {
+    "title": "NCB",
+    "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
+    "banner": "https://placehold.co/600x300",
+    "slug": "/postlegal",
+    "postedAt": "2024-10-01T12:00:00.000Z"
+  },
+  {
+    "title": "NCB",
+    "description": "NCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCBNCB",
+    "banner": "https://placehold.co/600x300",
+    "slug": "/postlegal",
+    "postedAt": "2024-10-02T12:00:00.000Z"
+  }
 ]
