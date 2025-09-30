@@ -4,12 +4,14 @@ import { Blog } from "./pages/Blog";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "./Components/features/ScrollToTop";
 
 function App() {
   AOS.init({ once: true });
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<About />} />
