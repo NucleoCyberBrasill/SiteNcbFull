@@ -96,6 +96,7 @@ export function Members() {
                 border-[var(--color-primary-self)]
                 hover:scale-106
                 hover:border-[var(--color-accent-hover-self)]
+                transition
               "
               >
                 <img
