@@ -111,9 +111,8 @@ export function Members() {
                 />
 
                 <h3
-                  className={`font-bold text-lg text-center ${
-                    member.adm ? "text-[var(--color-members-admin-self)]" : ""
-                  }`}
+                  className={`font-bold text-lg text-center ${member.adm ? "text-[var(--color-members-admin-self)]" : ""
+                    }`}
                 >
                   {member.name}
                 </h3>
@@ -123,11 +122,13 @@ export function Members() {
                     <span
                       key={index}
                       className="px-2 py-1 rounded bg-[var(--color-secondary-self)] 
-                    hover:bg-[var(--color-secondary-hover-self)] text-xs text-[var( --color-text-self)] cursor-pointer"
+    hover:bg-[var(--color-secondary-hover-self)] text-xs text-[var(--color-text-self)] 
+    cursor-pointer transform hover:scale-120 transition-transform"
                     >
                       {tags[tag as TagKey]}
                     </span>
                   ))}
+
                 </div>
 
                 <p className="text-center text-sm mt-1 px-2 pt-2">
