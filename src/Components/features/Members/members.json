@@ -8,7 +8,9 @@
     "github": "https://github.com/JSchrann",
     "linkedin": "https://www.linkedin.com/in/schrannjulia/",
     "discord": "https://discord.com/users/620413649147789338",
-    "tags": ["cybersec"],
+    "tags": [
+      "cybersec"
+    ],
     "course": "si"
   },
   {
@@ -21,9 +23,12 @@
     "linkedin": "https://www.linkedin.com/in/jhonata-tavares/",
     "discord": "https://discord.com/users/357941121160314880",
     "course": "cc",
-    "tags": ["dev", "devops", "database"]
+    "tags": [
+      "dev",
+      "devops",
+      "database"
+    ]
   },
-
   {
     "id": 3,
     "name": "Rebecca Mello",
@@ -32,7 +37,11 @@
     "github": "https://github.com/Rbkmello",
     "linkedin": "https://www.linkedin.com/in/rebeccabmello",
     "course": "cc",
-    "tags": ["cybersec", "dev", "designer"]
+    "tags": [
+      "cybersec",
+      "dev",
+      "designer"
+    ]
   },
   {
     "id": 4,
@@ -42,7 +51,10 @@
     "github": "https://github.com/Vinny7x",
     "linkedin": "https://linkedin.com/in/vinicios-mendes",
     "discord": "https://discord.com/users/864842051882450974",
-    "tags": ["dev", "database"],
+    "tags": [
+      "dev",
+      "database"
+    ],
     "course": "SI"
   },
   {
@@ -52,7 +64,11 @@
     "state": "ce",
     "github": "https://github.com/iambel",
     "linkedin": "https://www.linkedin.com/in/iambel/",
-    "tags": ["dev", "datascience", "designer"],
+    "tags": [
+      "dev",
+      "datascience",
+      "designer"
+    ],
     "course": "cc"
   },
   {
@@ -63,7 +79,9 @@
     "github": "https://github.com/baddjoke",
     "linkedin": "https://www.linkedin.com/in/v%C3%ADtor-le%C3%A3o-a19638356/",
     "course": "ads",
-    "tags": ["dev"]
+    "tags": [
+      "dev"
+    ]
   },
   {
     "id": 7,
@@ -73,7 +91,9 @@
     "github": "https://github.com/mimi-utmost",
     "linkedin": "https://www.linkedin.com/in/willian-miranda-rodrigues/",
     "course": "cc",
-    "tags": ["dev"]
+    "tags": [
+      "dev"
+    ]
   },
   {
     "id": 8,
@@ -83,7 +103,9 @@
     "github": "https://github.com/JadeFreire21",
     "linkedin": "www.linkedin.com/in/jade-freire-coelho-marins-b077a9142",
     "course": "si",
-    "tags": ["cybersec"]
+    "tags": [
+      "cybersec"
+    ]
   },
   {
     "id": 9,
@@ -93,7 +115,10 @@
     "linkedin": "https://linkedin.com/in/otávio-alves",
     "github": "https://github.com/DevOtavioAlves",
     "course": "si",
-    "tags": ["cybersec", "devops"]
+    "tags": [
+      "cybersec",
+      "devops"
+    ]
   },
   {
     "id": 10,
@@ -103,7 +128,10 @@
     "linkedin": "https://www.linkedin.com/in/wanderlei-thech",
     "github": "https://github.com/wanderleiads",
     "course": "ads",
-    "tags": ["dev", "designer"]
+    "tags": [
+      "dev",
+      "designer"
+    ]
   },
   {
     "id": 11,
@@ -113,5 +141,17 @@
     "state": "go",
     "linkedin": "https://www.linkedin.com/in/paulo-cesar-da-silva-oliveira-686883284/",
     "course": "gti"
+  },
+  {
+    "id": 12,
+    "name": "Carlos Lavigne",
+    "image": "/imgs/members/carlos_lavigne.jpeg",
+    "github": "https://github.com/carloslavig",
+    "linkedin": "https://www.linkedin.com/in/carloslavig/",
+    "state": "sp",
+    "course": "ads",
+    "tags": [
+      "devops"
+    ]
   }
 ]
