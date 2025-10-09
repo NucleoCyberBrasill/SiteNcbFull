@@ -4,7 +4,6 @@ import { Hero } from "../Components/features/Hero";
 import { Members } from "../Components/features/Members/Members";
 import { Projects } from "../Components/features/Projects/Projects";
 import { Cta } from "../Components/features/Cta";
-import { Reviews } from "../Components/features/Reviews/Reviews";
 import MembersMap from "../Components/features/MembersMap/MembersMap";
 export function Home() {
   return (
@@ -21,7 +20,6 @@ export function Home() {
           <MembersMap />
           <Members />
         </div>
-        <Reviews />
       </Container>
       <Cta />
     </MainTemplate>
